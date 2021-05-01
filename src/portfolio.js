@@ -351,10 +351,15 @@ const achievementSection = {
       image: require("./assets/images/hof-theprint.jpeg"),
       footerLink: [
         {
-          name: "Article",
+          name: "Read Article",
           url:
             "https://theprint.in/campus-voice/india-is-both-right-and-wrong-together-needs-more-centrists-to-tackle-left-right-binary/635810/"
-        }
+        }, 
+        {
+          name: "Certificate",
+          url:
+            "https://drive.google.com/file/d/1AyCzDilfXredx8RFYobsCq4qDnCMr3Wz/view?usp=sharing"
+        },
       ]
     },
     {
@@ -585,7 +590,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-7045607846",
+  number: "Hit me up on email rather ;)",
   email_address: "arghyadeep1899@gmail.com"
 };
 
