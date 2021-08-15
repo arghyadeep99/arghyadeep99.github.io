@@ -12,7 +12,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Incoming Technical Analyst at Barclays | Former Lead Mentor at Somaiya ML Research Association | Aspiring ML/DL Cognoscente"
+    "CVIT Summer School 2021 Fellow | Incoming Technical Analyst at Barclays | Former Lead Mentor at Somaiya ML Research Association | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -29,6 +29,7 @@ const socialMediaLinks = {
   medium: "https://arghyadeep-d.medium.com/",
   gmail: "arghyadeep1899@gmail.com",
   facebook: "https://www.facebook.com/arghyadeep.d",
+  spotify: "https://open.spotify.com/user/31jjxj4nl3whrmo634uns76bqjhi",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -102,7 +103,7 @@ const educationInfo = {
       duration: "August 2017 - July 2021",
       desc: "CGPA: 9.48 | Highest GPA: 10",
       descBullets: [
-        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference.",
+        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and currently under process for publication in IEEE Explore.",
         "Consistently in top 5% of Computer Department's academic ranklist since First Year",
         "Former Lead Mentor and Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",
         "Participated in numerous hackathons and won in some of them",
@@ -153,7 +154,7 @@ const techStack = {
     },
     {
       Stack: "PyTorch",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Java",
@@ -168,8 +169,8 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "PostgreSQL",
-      progressPercentage: "70%"
+      Stack: "FastAPI",
+      progressPercentage: "50%"
     }
   ]
 };
@@ -187,7 +188,7 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Inspected different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM for Online Hate Speech Classification.",
-        "The NB-SVM model achieved a \textbf{column-wise mean AUC-ROC score of 0.977",
+        "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977",
       ]
     },
     {
@@ -574,11 +575,11 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://theprint.in/campus-voice/jai-hind-garibi-hatao-to-khela-hobe-slogans-show-how-indian-politics-has-evolved/695294/",
+        "https://arghyadeep-d.medium.com/the-collatz-conjecture-beauty-or-conundrum-of-mathematics-6589e45babf7",
       title:
-        "‘Jai Hind’, ‘Garibi Hatao’ to ‘Khela Hobe’ — slogans show how Indian politics has evolved",
+        "The Collatz Conjecture: Beauty or Conundrum of Mathematics?",
       description:
-        "In this opinion piece with ThePrint, I discuss the role of slogans in Indian politics from pre-independence era to today and its evolution from 'Jai Hind' to 'Khela Hobe'."
+        "In this article, I talk about the Collatz Conjecture, whose quest for proof has puzzled mathematicians for decades. The beauty of mathematics is shrouded in its mystery!"
     },
     {
       url:
@@ -587,6 +588,14 @@ const blogSection = {
         "The Battle for Audio Space Supremacy: Clubhouse, Spaces, Greenroom… who’s next?",
       description:
         "How every social media giant is challenging each other in this new battlefield, giving them a run for their money!"
+    },
+    {
+      url:
+        "https://theprint.in/campus-voice/jai-hind-garibi-hatao-to-khela-hobe-slogans-show-how-indian-politics-has-evolved/695294/",
+      title:
+        "‘Jai Hind’, ‘Garibi Hatao’ to ‘Khela Hobe’ — slogans show how Indian politics has evolved",
+      description:
+        "In this opinion piece with ThePrint, I discuss the role of slogans in Indian politics from pre-independence era to today and its evolution from 'Jai Hind' to 'Khela Hobe'."
     },
     {
       url:
@@ -620,10 +629,17 @@ const blogSection = {
     },
     {
       url:
-        "https://medium.com/hackernoon/review-of-microsofts-desi-chatbot-ruuh-2652784a396d",
-      title: "Review of Microsoft's Desi Chatbot: Ruuh",
+        "https://smlra-kjsce.medium.com/whats-the-res-in-resnet-part-ii-96612490cb8e",
+      title: "What’s the “Res” in “ResNet”? [Part II]",
       description:
-        "This blog covers my opinion and review of Microsoft's Desi Chatbot, Ruuh!"
+      "This second part continues the intuitive explanation of the ResNet paper in detail."
+    },
+    {
+      url:
+        "https://smlra-kjsce.medium.com/whats-the-res-in-resnet-part-i-389116531796",
+      title: "What’s the “Res” in “ResNet”? [Part I]",
+      description:
+        "This blog provides an intuitive and easy-to-understand explanation of the Residual Networks, famously called ResNet paper in detail."
     },
     {
       url:
