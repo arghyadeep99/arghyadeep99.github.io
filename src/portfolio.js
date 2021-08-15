@@ -12,7 +12,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Incoming Technical Analyst at Barclays | Lead Mentor at Somaiya ML Research Association | Your better-than-average ML/DL Enthusiast"
+    "Incoming Technical Analyst at Barclays | Former Lead Mentor at Somaiya ML Research Association | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -44,11 +44,10 @@ const skillsSection = {
     emoji("⚡ Melophile ♫, Technophile 💻 and Nyctophile 🌙"),
     emoji("⚡ Alter ego: tensor.overflow! 🎮"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
-    emoji("⚡ Huge fan of Pokémon, The Big Bang Theory and Mr. Robot!"),
-    emoji("⚡ Regularly participate in hackathons and Kaggle competitions"),
+    emoji("⚡ Huge fan of Pokémon, The Big Bang Theory and Mr. Robot! 🤖"),
     emoji(
-      "⚡ Love to explore about finance, science, music and world politics!"
-    )
+      "⚡ Love to explore about finance, science, music and world politics!"), 
+    emoji("⚡ Both you & me were declared 2006 TIMES Person of the Year! ✨")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,14 +99,15 @@ const educationInfo = {
       schoolName: "K. J. Somaiya College of Engineering (KJSCE)",
       logo: require("./assets/images/kjsceLogo.png"),
       subHeader: "Bachelor of Technology in Computer Engineering",
-      duration: "August 2017 - Present",
-      desc: "CGPA: 9.44 | Highest GPA: 10",
+      duration: "August 2017 - July 2021",
+      desc: "CGPA: 9.48 | Highest GPA: 10",
       descBullets: [
-        "Working on Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games",
+        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference.",
         "Consistently in top 5% of Computer Department's academic ranklist since First Year",
-        "Current Lead Mentor and ex-Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",
+        "Former Lead Mentor and Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",
         "Participated in numerous hackathons and won in some of them",
-        "Mentored many junior students about beginning in Computer Science, with high comeback rate",
+        "Delivered Placement Pep-Talk for juniors on invitation from college's Placement Cell",
+        "Mentored many junior students about beginning in Computer Science, with high return rate",
         "Department Topper Award for highest score in Applied Physics-II and Communication Skills",
         "First Runner-Up (Computer Department) in inter-department Shield Table Tennis in First Year",
         "Documentation Team Member at KJSCE Outreach Center for Cybersecurity"
@@ -153,7 +153,7 @@ const techStack = {
     },
     {
       Stack: "PyTorch",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Java",
@@ -165,7 +165,7 @@ const techStack = {
     },
     {
       Stack: "MongoDB",
-      progressPercentage: "65%"
+      progressPercentage: "70%"
     },
     {
       Stack: "PostgreSQL",
@@ -186,8 +186,8 @@ const workExperiences = {
       date: "August 2020",
       desc: "",
       descBullets: [
-        "Worked on Online Hate Speech Classification using different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM algorithms",
-        "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977."
+        "Inspected different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM for Online Hate Speech Classification.",
+        "The NB-SVM model achieved a \textbf{column-wise mean AUC-ROC score of 0.977",
       ]
     },
     {
@@ -197,19 +197,19 @@ const workExperiences = {
       date: "December 2019 – January 2020",
       desc: "",
       descBullets: [
-        "Worked on a report to pave the path for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on a national scale. It was proposed to send to the Ministry of IT (MeitY), BIS & ISO/IEC",
+        "Prepared a report to pave the path for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on national scale. It was proposed to send to Ministry of IT (MeitY), BIS \& ISO/IEC",
         "The report was utilized in framing the ”Responsible #AIForAll” Draft by NITI Aayog to frame the baseline for a National Policy on Ethics in AI",
-        "Worked on a report focused on the Possible Impact of AI on Climate Change in India & reviewed multiple technology policies of national scale."
+        "Compiled a report focused on the Possible Impact of AI on Climate Change in India & reviewed multiple technology policies of national scale."
       ]
     },
     {
-      role: "Lead Mentor | Ex-Community Mentor",
+      role: "Ex-Lead Mentor | Ex-Community Mentor",
       company: "SMLRA-KJSCE",
       companylogo: require("./assets/images/smlraLogo.jpeg"),
-      date: "July 2019 – Present",
+      date: "July 2019 – July 2021",
       descBullets: [
         "Conducted research paper-reading group sessions on ResNet, Meme Generation using Dank Learning, and ULMFiT",
-        "Speaker in ML-101, ML-DL-101, GANs and VAEs, DL in NLP-101 symposiums, covering maths and concepts of ML, DL, Computer Vision and NLP",
+        "Delivered speaker sessions in ML-101, ML-DL-101, GANs and VAEs, DL in NLP-101 symposiums, covering maths and concepts of ML, DL, GANs, Computer Vision and NLP",
         "Effectively organized and managed the administrative and logistic work required for conducting events",
         "Contributed in developing the council’s website"
       ]
@@ -220,7 +220,7 @@ const workExperiences = {
       companylogo: require("./assets/images/iitbLogo.jpg"),
       date: "June 2019 – September 2019",
       descBullets: [
-        "Led a team of four members to develop an offline Android app called KhetiBaadi using ResNet50 to help farmers detect crop diseases, under E-Yantra, IIT Bombay",
+        "Spearheaded a team of four members to develop an offline Android app called KhetiBaadi using ResNet50 to help farmers detect crop diseases, under E-Yantra, IIT Bombay",
         "The model achieved 97.57% accuracy by fine-tuning the batch-norm layers"
       ]
     },
@@ -240,7 +240,7 @@ const workExperiences = {
       companylogo: require("./assets/images/kjsceLogo.png"),
       date: "June 2018 - July 2018",
       descBullets: [
-        "Developed an Android app called Somaiya Classroom that connects students and faculties of our college with access to past year papers, reminders for vivas, quizzes, tutorials, exam time tables and doubt discussions",
+        "Built an Android app called Somaiya Classroom that connects students and faculties of our college with access to past year papers, reminders for vivas, quizzes, tutorials, exam time tables and doubt discussions",
         "Incorporated Firebase, managed the backend, revamped the UI and integrated the backend and frontend"
       ]
     }
@@ -261,8 +261,24 @@ const openSource = {
 
 const voluntaryWork = {
   title: "Voluntary Work",
-  subtitle: "Some work that I did on the sidelines...",
+  subtitle: "Some voluntary work that I have done on the sidelines...",
   projects: [
+    {
+      image: require("./assets/images/uandi.png"),
+      projectName: "U&I Covid-19 Resources Collector",
+      projectDesc:
+        "I helped fetch and verify Covid-19 related resources to maintain a database of actively verified resources during the peak of second wave so that people can search for oxygen cylinders, beds, medicines, etc. instantly from our website as part of U&I's initiative of 'Breathe India'.",
+      footerLink: [
+        {
+          name: "View LoA", 
+          url: "https://drive.google.com/file/d/1E-DODXCsQtKMvUBCt650NWE1dJEkelrv/view?usp=sharing"
+        },
+        {
+          name: "Website", 
+          url: "https://covidwin.in"
+        }
+      ]
+    },
     {
       image: require("./assets/images/mlsabetaLogo.png"),
       projectName: "Microsoft Learn Student Ambassador",
@@ -283,6 +299,10 @@ const voluntaryWork = {
         'Responsible for conducting workshops, seminars, and talks related to the field of Artificial Intelligence in Pie & AI Sessions. Conducted an online session on "The Past & Future of AI" in June 2020.',
       footerLink: [
         {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1wuDhyNAMb7DBoJME4BN9KMHvq0mevFoo/view?usp=sharing"
+        },
+        {
           name: "YouTube Link",
           url: "https://www.youtube.com/watch?v=QPPc8V-Zg4w"
         }
@@ -295,7 +315,7 @@ const voluntaryWork = {
       projectDesc:
         "As a Campus Editor at LinkedIn, I voiced my thoughts on LinkedIn about the things that matter to me in the professional world, follow up on relevant to professional career development and encourage others to use LinkedIn effectively."
     },
-    {
+    /*{
       image: require("./assets/images/techfestLogo.png"),
       projectName: "TechFest Campus Ambassador",
       projectDesc:
@@ -308,6 +328,7 @@ const voluntaryWork = {
         }
       ]
     },
+    */
     {
       image: require("./assets/images/outreachLogo.jpeg"),
       projectName: "KJSCE Outreach for Cybersecurity",
@@ -339,11 +360,54 @@ const voluntaryWork = {
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Achievements 🏆"),
+  title: emoji("Achievements & Publications 🏆"),
   //subtitle:
   //"Achievements for some cool things I have done!",
 
   achievementsCards: [
+    {
+      title: "Accepted as CVIT Summer School of AI 2021 Fellow",
+      subtitle:
+        "Got selected in the cohort of 300+ students from across the globe for IIIT Hyderabad's CVIT lab's Summer School of AI with focus on Computer Vision and Machine Learning, running from 2nd-31st August, 2021.",
+      image: require("./assets/images/summer school.jpeg"),
+      footerLink: [
+        {
+          name: "Summer School Website",
+          url: "http://cvit.iiit.ac.in/summerschool2021/"
+        },
+      ]
+    },
+    {
+      title: "Research Paper presented in IEEE Conference",
+      subtitle:
+        "Presented my final year thesis on 'Knowledge Transfer between Similar Atari Games Using Deep Q-Networks to Improve Performance' in the 12th ICCCNT 2021 Conference organized by IEEE section of IIT Kharagpur held from 6th-8th July, 2021. Paper will soon be available on IEEE Xplore.",
+      image: require("./assets/images/ICCCNT Certificate.jpeg"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url:
+            "https://drive.google.com/file/d/1NrR_mthXsziw1BNogoxUyvw89AK6Yxzv/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "All India First Prize in #CampusVoice Initiative by ThePrint",
+      subtitle:
+        "Secured All India first rank in the #CampusVoice initiative by ThePrint. I wrote an opinion piece on the evolution of slogans in India - from 'Jai Hind' to 'Khela Hobe' and underlined the significance of slogans in Indian politics from pre-independence era to today.",
+      image: require("./assets/images/hof-first-prize-theprint.jpeg"),
+      footerLink: [
+        {
+          name: "Read Article",
+          url:
+            "https://theprint.in/campus-voice/jai-hind-garibi-hatao-to-khela-hobe-slogans-show-how-indian-politics-has-evolved/695294/"
+        }, 
+        {
+          name: "Certificate",
+          url:
+            "https://drive.google.com/file/d/14HhSyg3yFuBkqdg8uUV-Tk9vdGAtlX-0/view?usp=sharing"
+        },
+      ]
+    },
     {
       title: "All India Third Prize in #CampusVoice Initiative by ThePrint",
       subtitle:
@@ -510,6 +574,22 @@ const blogSection = {
   blogs: [
     {
       url:
+        "https://theprint.in/campus-voice/jai-hind-garibi-hatao-to-khela-hobe-slogans-show-how-indian-politics-has-evolved/695294/",
+      title:
+        "‘Jai Hind’, ‘Garibi Hatao’ to ‘Khela Hobe’ — slogans show how Indian politics has evolved",
+      description:
+        "In this opinion piece with ThePrint, I discuss the role of slogans in Indian politics from pre-independence era to today and its evolution from 'Jai Hind' to 'Khela Hobe'."
+    },
+    {
+      url:
+        "https://arghyadeep-d.medium.com/the-battle-for-audio-space-supremacy-clubhouse-spaces-greenroom-whos-next-981b47f5cde3",
+      title:
+        "The Battle for Audio Space Supremacy: Clubhouse, Spaces, Greenroom… who’s next?",
+      description:
+        "How every social media giant is challenging each other in this new battlefield, giving them a run for their money!"
+    },
+    {
+      url:
         "https://theprint.in/campus-voice/india-is-both-right-and-wrong-together-needs-more-centrists-to-tackle-left-right-binary/635810/",
       title:
         "India is both right and wrong together, needs more Centrists to tackle Left-Right binary",
@@ -550,7 +630,7 @@ const blogSection = {
         "https://medium.com/hackernoon/coding-the-word-that-is-being-thrown-around-by-almost-every-tech-geek-from-student-to-developer-e91f512831a4",
       title: "Why coding is a difficulty for many…",
       description:
-        "This blog concentrates on my journey so far in the field of Computer Science!"
+        "This blog concentrates on my journey till my First Year of Computer Engineering in the field of Computer Science!"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -566,7 +646,7 @@ const talkSection = {
     {
       title: "Yet to give a talk",
       subtitle: "",
-      slides_url: "Yet to give a talk",
+      //slides_url: "Yet to give a talk",
       event_url: "Yet to give a talk"
     }
   ],
