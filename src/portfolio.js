@@ -265,6 +265,20 @@ const voluntaryWork = {
   subtitle: "Some voluntary work that I have done on the sidelines...",
   projects: [
     {
+      image: require("./assets/images/dlLogo.png"),
+      projectName: "Beta Tester & Mentor @ deeplearning.ai",
+      projectDesc:
+        'Responsible for beta-testing courses by deeplearning.ai, debugging programming assignments, solving course-related doubts and mentoring the enrolled students via Discourse.',
+      footerLink: [
+        {
+          name: "Join our Discourse",
+          url: "https://community.deeplearning.ai/"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+
+    {
       image: require("./assets/images/uandi.png"),
       projectName: "U&I Covid-19 Resources Collector",
       projectDesc:
@@ -284,7 +298,7 @@ const voluntaryWork = {
       image: require("./assets/images/mlsabetaLogo.png"),
       projectName: "Microsoft Learn Student Ambassador",
       projectDesc:
-        "My role is to create awareness about Microsoft technologies like Azure, Office 365, etc. in communities and build a community of students on-campus and online. I am also responsible for organizing events and workshops on Microsoft technologies.",
+        "My role was to create awareness about Microsoft technologies like Azure, Office 365, etc. in communities and build a community of students on-campus and online. I am also responsible for organizing events and workshops on Microsoft technologies.",
       footerLink: [
         {
           name: "View Certificate",
@@ -310,13 +324,14 @@ const voluntaryWork = {
         //  you can add extra buttons here.
       ]
     },
+    /*
     {
       image: require("./assets/images/linkedinLogo.png"),
       projectName: "LinkedIn Campus Editor",
       projectDesc:
         "As a Campus Editor at LinkedIn, I voiced my thoughts on LinkedIn about the things that matter to me in the professional world, follow up on relevant to professional career development and encourage others to use LinkedIn effectively."
     },
-    /*{
+    {
       image: require("./assets/images/techfestLogo.png"),
       projectName: "TechFest Campus Ambassador",
       projectDesc:
@@ -577,9 +592,17 @@ const blogSection = {
       url:
         "https://arghyadeep-d.medium.com/the-collatz-conjecture-beauty-or-conundrum-of-mathematics-6589e45babf7",
       title:
+        "Multi-label Emotion Classification with PyTorch + HuggingFace’s Transformers and W&B for Tracking",
+      description:
+        "In this article published in Towards Data Science, I work on the problem of multi-label emotion classification using SqueezeBERT model and track my training using W&B!"
+    },
+    {
+      url:
+        "https://www.cantorsparadise.com/the-collatz-conjecture-beauty-or-conundrum-of-mathematics-6589e45babf7",
+      title:
         "The Collatz Conjecture: Beauty or Conundrum of Mathematics?",
       description:
-        "In this article, I talk about the Collatz Conjecture, whose quest for proof has puzzled mathematicians for decades. The beauty of mathematics is shrouded in its mystery!"
+        "In this article published in Cantor's Paradise on Medium, I talk about the Collatz Conjecture, whose quest for proof has puzzled mathematicians for decades!"
     },
     {
       url:
