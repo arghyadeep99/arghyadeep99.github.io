@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.67808351.chunk.css",
-    "main.js": "/static/js/main.45bd4901.chunk.js",
-    "main.js.map": "/static/js/main.45bd4901.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4c48eb7d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4c48eb7d.js.map",
-    "static/js/2.608440df.chunk.js": "/static/js/2.608440df.chunk.js",
-    "static/js/2.608440df.chunk.js.map": "/static/js/2.608440df.chunk.js.map",
-    "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
+    "main.css": "/static/css/main.192763a0.chunk.css",
+    "main.js": "/static/js/main.607c9da5.chunk.js",
+    "main.js.map": "/static/js/main.607c9da5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.54b98495.js",
+    "runtime-main.js.map": "/static/js/runtime-main.54b98495.js.map",
+    "static/js/2.43e40a66.chunk.js": "/static/js/2.43e40a66.chunk.js",
+    "static/js/2.43e40a66.chunk.js.map": "/static/js/2.43e40a66.chunk.js.map",
+    "static/css/3.6a352120.chunk.css": "/static/css/3.6a352120.chunk.css",
     "static/js/3.fde70e55.chunk.js": "/static/js/3.fde70e55.chunk.js",
     "static/js/3.fde70e55.chunk.js.map": "/static/js/3.fde70e55.chunk.js.map",
-    "static/css/4.3e7d09e6.chunk.css": "/static/css/4.3e7d09e6.chunk.css",
+    "static/css/4.6e14a8dd.chunk.css": "/static/css/4.6e14a8dd.chunk.css",
     "static/js/4.4704e3f8.chunk.js": "/static/js/4.4704e3f8.chunk.js",
     "static/js/4.4704e3f8.chunk.js.map": "/static/js/4.4704e3f8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fe670bcdd577e9e6804c234fd001a3c1.js": "/precache-manifest.fe670bcdd577e9e6804c234fd001a3c1.js",
+    "precache-manifest.cb06e638f9280246316dcdcf8ba79fab.js": "/precache-manifest.cb06e638f9280246316dcdcf8ba79fab.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
-    "static/css/4.3e7d09e6.chunk.css.map": "/static/css/4.3e7d09e6.chunk.css.map",
-    "static/css/main.67808351.chunk.css.map": "/static/css/main.67808351.chunk.css.map",
-    "static/js/2.608440df.chunk.js.LICENSE.txt": "/static/js/2.608440df.chunk.js.LICENSE.txt",
+    "static/css/3.6a352120.chunk.css.map": "/static/css/3.6a352120.chunk.css.map",
+    "static/css/4.6e14a8dd.chunk.css.map": "/static/css/4.6e14a8dd.chunk.css.map",
+    "static/css/main.192763a0.chunk.css.map": "/static/css/main.192763a0.chunk.css.map",
+    "static/js/2.43e40a66.chunk.js.LICENSE.txt": "/static/js/2.43e40a66.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/ICCCNT Certificate.jpeg": "/static/media/ICCCNT Certificate.376df0a7.jpeg",
     "static/media/Physics Award.jpeg": "/static/media/Physics Award.b41a8241.jpeg",
@@ -48,9 +48,9 @@
     "static/media/unfoundLogo.webp": "/static/media/unfoundLogo.ecf2ad64.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c48eb7d.js",
-    "static/js/2.608440df.chunk.js",
-    "static/css/main.67808351.chunk.css",
-    "static/js/main.45bd4901.chunk.js"
+    "static/js/runtime-main.54b98495.js",
+    "static/js/2.43e40a66.chunk.js",
+    "static/css/main.192763a0.chunk.css",
+    "static/js/main.607c9da5.chunk.js"
   ]
 }
