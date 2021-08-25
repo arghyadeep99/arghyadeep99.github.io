@@ -39,7 +39,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What you don't know...",
   subTitle: emoji(
-    "I aspire to become an ML Engineer with aim of creating end-to-end ML products that revolutionize the society!"
+    "I aspire to become an ML Engineer with aim of creating end-to-end ML products that completely transfigure the society!"
   ),
   skills: [
     emoji("⚡ Melophile ♫, Technophile 💻 and Nyctophile 🌙"),
