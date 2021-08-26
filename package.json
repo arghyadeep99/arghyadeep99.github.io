@@ -19,11 +19,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node fetch.js && react-scripts start",
+    "build": "node fetch.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
