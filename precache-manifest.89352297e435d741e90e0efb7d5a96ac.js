@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "691fcc77903dcd64bb6cb2ae064de092",
+    "revision": "79ec93c62d020fecafe37978515f9fbc",
     "url": "/index.html"
   },
   {
-    "revision": "edf3638448d1fcf3cc20",
+    "revision": "25e67d393d8b28136446",
     "url": "/static/css/3.6a352120.chunk.css"
   },
   {
-    "revision": "129f6107b5de996c7a5c",
+    "revision": "4cf366759db2364b588c",
     "url": "/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "1aebcfcdd9d653d80451",
-    "url": "/static/css/main.192763a0.chunk.css"
+    "revision": "3e50a481daa911c64cf5",
+    "url": "/static/css/main.b5a9cca0.chunk.css"
   },
   {
-    "revision": "992993f6879e7e8a7273",
-    "url": "/static/js/2.c0e762ea.chunk.js"
+    "revision": "7b6d3363ea05bb05d8ff",
+    "url": "/static/js/2.163857e9.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.c0e762ea.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.163857e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "edf3638448d1fcf3cc20",
-    "url": "/static/js/3.ffee74d7.chunk.js"
+    "revision": "25e67d393d8b28136446",
+    "url": "/static/js/3.b3472986.chunk.js"
   },
   {
-    "revision": "129f6107b5de996c7a5c",
-    "url": "/static/js/4.2706e2f9.chunk.js"
+    "revision": "4cf366759db2364b588c",
+    "url": "/static/js/4.6062d382.chunk.js"
   },
   {
-    "revision": "1aebcfcdd9d653d80451",
-    "url": "/static/js/main.2b208efc.chunk.js"
+    "revision": "3e50a481daa911c64cf5",
+    "url": "/static/js/main.cfae584a.chunk.js"
   },
   {
-    "revision": "4cb49d06aa0f6f4d4f65",
-    "url": "/static/js/runtime-main.b00fc06e.js"
+    "revision": "a8a3acf027265be047f2",
+    "url": "/static/js/runtime-main.98cdcb16.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b41a8241e7cbfcd4790f59b8bb2bfc6e",
     "url": "/static/media/Physics Award.b41a8241.jpeg"
+  },
+  {
+    "revision": "0338d78c8ecc97989ffd206b0be8ec69",
+    "url": "/static/media/barclays.0338d78c.svg"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
