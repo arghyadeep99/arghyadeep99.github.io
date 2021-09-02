@@ -14,9 +14,12 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
+          <a href="https://github.com/saadpasta/developerFolio" target="_blank">
             developerFolio
-          </a>
+          </a>, assisted by{" "}
+          <a href="https://github.com/divesh2201" target="_blank">
+            Divesh Thakker
+             </a>
         </p>
       </div>
     </Fade>
