@@ -16,10 +16,7 @@ export default function Footer() {
           Theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio" target="_blank">
             developerFolio
-          </a>, assisted by{" "}
-          <a href="https://github.com/divesh2201" target="_blank">
-            Divesh Thakker
-             </a>
+          </a>
         </p>
       </div>
     </Fade>
