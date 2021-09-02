@@ -1,10 +1,11 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  font-size: 5rem;
+  margin-bottom: -20px;
+  margin-top: 12px;
   text-align: center;
+  float: left;
 }
 
 .software-skill-inline {
@@ -22,7 +23,7 @@
 }
 .software-skill-inline > p {
   color: #868e96;
-  font-size: 10px;
+  font-size: 20px;
 }
 .software-skill-inline > i:hover ~ p {
   color: #645beb;

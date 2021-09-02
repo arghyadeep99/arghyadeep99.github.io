@@ -54,40 +54,80 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  /**softwareSkills: [
+  softwareSkills: [
     {
-      skillName: "Python3",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Python",
+      src: "https://www.vectorlogo.zone/logos/python/python-icon.svg"
+    },
+    {
+      skillName: "PyTorch",
+      src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
     },
     {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
     },
     {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "MongoDB",
+      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+    },
+    {
+      skillName: "FastAPI",
+      src: "https://pbs.twimg.com/profile_images/1417542931209199621/fWMEIB5j.jpg"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      src: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "C++",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Tensorflow",
+      src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ], **/
+      skillName: "Git",
+      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+      skillName: "CI/CD",
+      src: "https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg"
+    },
+    {
+      skillName: "Reactjs",
+      src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+    },
+    {
+      skillName: "Django",
+      src: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg"
+    },
+    {
+      skillName: "Spring Boot",
+      src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+    },
+    {
+      skillName: "Databases",
+      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+    },
+    {
+      skillName: "npm",
+      src: "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
+    },
+    {
+      skillName: "Nodejs",
+      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+    },
+    {
+      skillName: "Heroku",
+      src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
+    },
+  ], 
   display: true // Set false to hide this section, defaults to true
 };
 
