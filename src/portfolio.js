@@ -8,11 +8,15 @@ const illustration = {
   animated: false // set to false to use static SVG
 };
 
+const prof_illustration = {
+  animated: true // set to false to use static SVG
+}
+
 const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "CVIT Summer School 2021 Fellow | Aspiring ML/DL Cognoscente | Former Lead Mentor at Somaiya ML Research Association"
+    "Technical Analyst at Barclays | CVIT Summer School 2021 Fellow | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -54,40 +58,97 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  /**softwareSkills: [
+  softwareSkills: [
     {
       skillName: "Python3",
-      fontAwesomeClassname: "fab fa-python"
+      src: "https://www.vectorlogo.zone/logos/python/python-icon.svg"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "PyTorch",
+      src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
     },
     {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "W&B",
+      src: "https://user-images.githubusercontent.com/33197180/131908148-17df8931-32ab-45fe-ba10-e665d271127e.png"
     },
     {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "FastAPI",
+      src: "https://user-images.githubusercontent.com/33197180/131907258-3844c124-b494-48f8-b834-59295c165ced.png"
+    },
+    {
+      skillName: "Streamlit",
+      src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
+    },
+    {
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
+    },
+    {
+      skillName: "MongoDB",
+      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+    },
+    {
+      skillName: "Django",
+      src: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg"
+    },
+    {
+      skillName: "Flask",
+      src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      src: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "NodeJS",
+      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "React",
+      src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ], **/
+      skillName: "Java",
+      src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+    },
+    {
+      skillName: "Tensorflow",
+      src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+    },
+    {
+      skillName: "C",
+      src: "https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67"
+    },
+    {
+      skillName: "Git",
+      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+      skillName: "Docker",
+      src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
+    },
+    {
+      skillName: "GCloud",
+      src: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+    },
+    {
+      skillName: "PostgreSQL",
+      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+    },
+    /**
+    {
+      skillName: "MATLAB",
+      src: "https://camo.githubusercontent.com/a240bd1934154469afd73f16cdd1def3c652f4c029758d1d20ea40823371e874/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32312f4d61746c61625f4c6f676f2e706e672f36363770782d4d61746c61625f4c6f676f2e706e67"
+    },
+    {
+      skillName: "Neo4j",
+      src: "https://www.vectorlogo.zone/logos/neo4j/neo4j-icon.svg"
+    },
+    {
+      skillName: "Heroku",
+      src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
+    }, **/
+  ], 
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -181,6 +242,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Technical Analyst",
+      company: "Barclays",
+      companylogo: require("./assets/images/barclays.svg"),
+      date: "August 2021 - Present",
+      desc: "",
+      descBullets: [
+        "Working in the Global Technologies Infrastructure Services (GTIS) team, delivering customized software solutions to all internal teams of Barclays across the globe.",
+      ]
+    },
+    {
       role: "NLP Intern",
       company: "UnFound.ai",
       companylogo: require("./assets/images/unfoundLogo.webp"),
@@ -188,7 +259,7 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Inspected different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM for Online Hate Speech Classification.",
-        "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977",
+        "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977.",
       ]
     },
     {
@@ -209,10 +280,10 @@ const workExperiences = {
       companylogo: require("./assets/images/smlraLogo.jpeg"),
       date: "July 2019 – July 2021",
       descBullets: [
-        "Conducted research paper-reading group sessions on ResNet, Meme Generation using Dank Learning, and ULMFiT",
-        "Delivered speaker sessions in ML-101, ML-DL-101, GANs and VAEs, DL in NLP-101 symposiums, covering maths and concepts of ML, DL, GANs, Computer Vision and NLP",
-        "Effectively organized and managed the administrative and logistic work required for conducting events",
-        "Contributed in developing the council’s website"
+        "Conducted research paper-reading group sessions on ResNet, Meme Generation using Dank Learning, and ULMFiT.",
+        "Delivered speaker sessions in ML-101, ML-DL-101, GANs and VAEs, DL in NLP-101 symposiums, covering maths and concepts of ML, DL, GANs, Computer Vision and NLP.",
+        "Effectively organized and managed the administrative and logistic work required for conducting events.",
+        "Contributed in developing the council’s website."
       ]
     },
     {
@@ -221,28 +292,30 @@ const workExperiences = {
       companylogo: require("./assets/images/iitbLogo.jpg"),
       date: "June 2019 – September 2019",
       descBullets: [
-        "Spearheaded a team of four members to develop an offline Android app called KhetiBaadi using ResNet50 to help farmers detect crop diseases, under E-Yantra, IIT Bombay",
-        "The model achieved 97.57% accuracy by fine-tuning the batch-norm layers"
+        "Spearheaded a team of four members to develop an offline Android app called KhetiBaadi using ResNet50 to help farmers detect crop diseases, under E-Yantra, IIT Bombay.",
+        "The model achieved 97.57% accuracy by fine-tuning the batch-norm layers."
       ]
     },
+    /*
     {
       role: "Deep Learning Intern",
       company: "KJSCE",
       companylogo: require("./assets/images/kjsceLogo.png"),
       date: "December 2018 – January 2019",
       descBullets: [
-        "Led a team of 3 members to create a Deep Learning model for Diabetic Retinopathy in medical scans of iris using Convolutional Neural Networks",
-        "Working on model interpretability using GradCAM and deploying using FastAPI"
+        "Led a team of 3 members to create a Deep Learning model for Diabetic Retinopathy in medical scans of iris using Convolutional Neural Networks (CNNs).",
+        "Working on model interpretability using GradCAM and deploying using FastAPI."
       ]
     },
+    */
     {
       role: "Android App Development Intern",
       company: "KJSCE",
       companylogo: require("./assets/images/kjsceLogo.png"),
       date: "June 2018 - July 2018",
       descBullets: [
-        "Built an Android app called Somaiya Classroom that connects students and faculties of our college with access to past year papers, reminders for vivas, quizzes, tutorials, exam time tables and doubt discussions",
-        "Incorporated Firebase, managed the backend, revamped the UI and integrated the backend and frontend"
+        "Built an Android app called Somaiya Classroom that connects students and faculties of our college with access to past year papers, reminders for vivas, quizzes, tutorials, exam time tables and doubt discussions.",
+        "Incorporated Firebase, managed the backend, revamped the UI and integrated the backend and frontend."
       ]
     }
   ]
@@ -721,6 +794,7 @@ const twitterDetails = {
 
 export {
   illustration,
+  prof_illustration,
   greeting,
   socialMediaLinks,
   skillsSection,

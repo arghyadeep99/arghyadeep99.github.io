@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./Skills.css";
-//mport SoftwareSkill from "../../components/softwareSkills/SoftwareSkill"; // type <SoftwareSkill /> in Line 46
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
@@ -43,7 +43,7 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
-
+            {/* <SoftwareSkill /> */}
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Progress.css";
-import {illustration, techStack} from "../../portfolio";
+import {prof_illustration, techStack, skillsSection} from "../../portfolio";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -12,7 +13,7 @@ export default function StackProgress() {
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
-            {techStack.experience.map((exp, i) => {
+            {/* {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage
               };
@@ -24,11 +25,12 @@ export default function StackProgress() {
                   </div>
                 </div>
               );
-            })}
+            })} */}
+            <SoftwareSkill />
           </div>
 
           <div className="skills-image">
-            {illustration.animated ? (
+            {prof_illustration.animated ? (
               <DisplayLottie animationData={Build} />
             ) : (
               <img
@@ -38,6 +40,7 @@ export default function StackProgress() {
             )}
           </div>
         </div>
+        
       </Fade>
     );
   }
