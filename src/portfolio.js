@@ -104,6 +104,10 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
     {
+      skillName: "Spring Boot",
+      src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+    },
+    {
       skillName: "React",
       src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },
@@ -135,7 +139,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "PostgreSQL",
       src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
-    /**
+    {
+      skillName: "MySQL",
+      src: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
+    },
+    /*
+    {
+      skillName: "Jenkins",
+      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+    },
+
+    {
+      skillName: "Azure",
+      src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+    },
+    {
+      skillName: "AWS",
+      src: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+    },
+    */
+    /*
     {
       skillName: "MATLAB",
       src: "https://camo.githubusercontent.com/a240bd1934154469afd73f16cdd1def3c652f4c029758d1d20ea40823371e874/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32312f4d61746c61625f4c6f676f2e706e672f36363770782d4d61746c61625f4c6f676f2e706e67"
@@ -147,7 +170,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Heroku",
       src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
-    }, **/
+    },
+    */
   ], 
   display: true // Set false to hide this section, defaults to true
 };
