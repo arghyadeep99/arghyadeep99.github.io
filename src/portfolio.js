@@ -143,12 +143,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "MySQL",
       src: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
     },
-    /*
+    
     {
       skillName: "Jenkins",
       src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
     },
-
+    /*
     {
       skillName: "Azure",
       src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
@@ -188,13 +188,14 @@ const educationInfo = {
       duration: "August 2017 - July 2021",
       desc: "CGPA: 9.48 | Highest GPA: 10",
       descBullets: [
-        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and currently under process for publication in IEEE Explore.",
+        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and currently in pipeline for publication in IEEE Explore.",
         "Consistently in top 5% of Computer Department's academic ranklist since First Year",
+        "Department Topper in Final Year",
         "Former Lead Mentor and Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",
         "Participated in numerous hackathons and won in some of them",
         "Delivered Placement Pep-Talk for juniors on invitation from college's Placement Cell",
-        "Mentored many junior students about beginning in Computer Science, with high return rate",
-        "Department Topper Award for highest score in Applied Physics-II and Communication Skills",
+        "Mentored many junior students beginning their journey in Computer Science",
+        "College-level Topper Award for highest score in Applied Physics-II and Communication Skills in First Year",
         "First Runner-Up (Computer Department) in inter-department Shield Table Tennis in First Year",
         "Documentation Team Member at KJSCE Outreach Center for Cybersecurity"
       ]
@@ -478,11 +479,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Accepted as CVIT Summer School of AI 2021 Fellow",
+      title: "CVIT Summer School of AI 2021 Fellow",
       subtitle:
-        "Got selected in the cohort of 300+ students from across the globe for IIIT Hyderabad's CVIT lab's Summer School of AI with focus on Computer Vision and Machine Learning, running from 2nd-31st August, 2021.",
-      image: require("./assets/images/summer school.jpeg"),
+        "Got selected in the cohort of 300+ students from across the globe for IIIT Hyderabad's CVIT lab's Summer School of AI with focus on Computer Vision and Machine Learning, conducted from 2nd-31st August, 2021.",
+      image: require("./assets/images/CVIT Certificate.png"),
       footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1DITPH_GbZj6tzOWT3FZCDWVyYnKuaKV6/view?usp=sharing"
+        },
         {
           name: "Summer School Website",
           url: "http://cvit.iiit.ac.in/summerschool2021/"
@@ -492,7 +497,7 @@ const achievementSection = {
     {
       title: "Research Paper presented in IEEE Conference",
       subtitle:
-        "Presented my final year thesis on 'Knowledge Transfer between Similar Atari Games Using Deep Q-Networks to Improve Performance' in the 12th ICCCNT 2021 Conference organized by IEEE section of IIT Kharagpur held from 6th-8th July, 2021. Paper will soon be available on IEEE Xplore.",
+        "Presented my final year thesis on 'Knowledge Transfer between Similar Atari Games Using Deep Q-Networks to Improve Performance' in the 12th ICCCNT 2021 Conference organized by IEEE section of IIT Kharagpur held from 6th-8th July, 2021. Paper in pipeline to be published on IEEE Xplore.",
       image: require("./assets/images/ICCCNT Certificate.jpeg"),
       footerLink: [
         {
