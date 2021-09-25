@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b5a9cca0.chunk.css",
-    "main.js": "/static/js/main.c96f8403.chunk.js",
-    "main.js.map": "/static/js/main.c96f8403.chunk.js.map",
+    "main.js": "/static/js/main.2b483f1e.chunk.js",
+    "main.js.map": "/static/js/main.2b483f1e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.98cdcb16.js",
     "runtime-main.js.map": "/static/js/runtime-main.98cdcb16.js.map",
     "static/js/2.163857e9.chunk.js": "/static/js/2.163857e9.chunk.js",
@@ -14,13 +14,14 @@
     "static/js/4.6062d382.chunk.js": "/static/js/4.6062d382.chunk.js",
     "static/js/4.6062d382.chunk.js.map": "/static/js/4.6062d382.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99e1ddfcb76783b6b88f02af159d4e5b.js": "/precache-manifest.99e1ddfcb76783b6b88f02af159d4e5b.js",
+    "precache-manifest.a03d2c67f95405943bd9681a51d2193d.js": "/precache-manifest.a03d2c67f95405943bd9681a51d2193d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.6a352120.chunk.css.map": "/static/css/3.6a352120.chunk.css.map",
     "static/css/4.6e14a8dd.chunk.css.map": "/static/css/4.6e14a8dd.chunk.css.map",
     "static/css/main.b5a9cca0.chunk.css.map": "/static/css/main.b5a9cca0.chunk.css.map",
     "static/js/2.163857e9.chunk.js.LICENSE.txt": "/static/js/2.163857e9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/CVIT Certificate.png": "/static/media/CVIT Certificate.55b1f26e.png",
     "static/media/ICCCNT Certificate.jpeg": "/static/media/ICCCNT Certificate.376df0a7.jpeg",
     "static/media/Physics Award.jpeg": "/static/media/Physics Award.b41a8241.jpeg",
     "static/media/barclays.svg": "/static/media/barclays.0338d78c.svg",
@@ -42,7 +43,6 @@
     "static/media/programmer.svg": "/static/media/programmer.c1a95f73.svg",
     "static/media/ryanLogo.jpeg": "/static/media/ryanLogo.718753d0.jpeg",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
-    "static/media/summer school.jpeg": "/static/media/summer school.6cf10cf7.jpeg",
     "static/media/surge.png": "/static/media/surge.1d36d612.png",
     "static/media/TalkCard.css": "/static/media/talksCardBack.13780cdd.svg",
     "static/media/uandi.png": "/static/media/uandi.acea8d36.png",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.98cdcb16.js",
     "static/js/2.163857e9.chunk.js",
     "static/css/main.b5a9cca0.chunk.css",
-    "static/js/main.c96f8403.chunk.js"
+    "static/js/main.2b483f1e.chunk.js"
   ]
 }

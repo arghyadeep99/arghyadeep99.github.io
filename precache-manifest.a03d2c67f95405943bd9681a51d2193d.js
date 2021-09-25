@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ae1e433517c91f379008f37650d14b3",
+    "revision": "b9331ed347af14c0ad7aa6e216f6ab23",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "b0f5066561b1cc624aeb",
+    "revision": "035f81fc4ef9f5834f51",
     "url": "/static/css/main.b5a9cca0.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.6062d382.chunk.js"
   },
   {
-    "revision": "b0f5066561b1cc624aeb",
-    "url": "/static/js/main.c96f8403.chunk.js"
+    "revision": "035f81fc4ef9f5834f51",
+    "url": "/static/js/main.2b483f1e.chunk.js"
   },
   {
     "revision": "a8a3acf027265be047f2",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "55b1f26e2e604538cc137afb56cf9702",
+    "url": "/static/media/CVIT Certificate.55b1f26e.png"
   },
   {
     "revision": "376df0a795af50bc386de788dccaf437",
@@ -130,10 +134,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
-  },
-  {
-    "revision": "6cf10cf70373af69528d097b30214aeb",
-    "url": "/static/media/summer school.6cf10cf7.jpeg"
   },
   {
     "revision": "1d36d61224c42891a45a49c9ec0d12d4",
