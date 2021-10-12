@@ -16,7 +16,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Technical Analyst at Barclays | CVIT Summer School 2021 Fellow | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
+    "Software Engineer at Barclays | CVIT Summer School 2021 Fellow | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -49,7 +49,7 @@ const skillsSection = {
     emoji("⚡ Melophile ♫, Technophile 💻 and Nyctophile 🌙"),
     emoji("⚡ Alter ego: tensor.overflow! 🎮"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
-    emoji("⚡ Huge fan of Pokémon, The Big Bang Theory and Mr. Robot! 🤖"),
+    emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and Mr. Robot! 🤖"),
     emoji(
       "⚡ Love to explore about finance, science, music and world politics!"), 
     emoji("⚡ Both you & me were declared 2006 TIMES Person of the Year! ✨")
