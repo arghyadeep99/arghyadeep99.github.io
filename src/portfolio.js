@@ -68,10 +68,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
     },
     {
-      skillName: "W&B",
-      src: "https://user-images.githubusercontent.com/33197180/131908148-17df8931-32ab-45fe-ba10-e665d271127e.png"
-    },
-    {
       skillName: "FastAPI",
       src: "https://user-images.githubusercontent.com/33197180/131907258-3844c124-b494-48f8-b834-59295c165ced.png"
     },
@@ -170,6 +166,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Heroku",
       src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
+    },
+    {
+      skillName: "W&B",
+      src: "https://user-images.githubusercontent.com/33197180/131908148-17df8931-32ab-45fe-ba10-e665d271127e.png"
     },
     */
   ], 
@@ -495,11 +495,16 @@ const achievementSection = {
       ]
     },
     {
-      title: "Research Paper presented in IEEE Conference",
+      title: "Research Paper presented & published in IEEE Xplore",
       subtitle:
-        "Presented my final year thesis on 'Knowledge Transfer between Similar Atari Games Using Deep Q-Networks to Improve Performance' in the 12th ICCCNT 2021 Conference organized by IEEE section of IIT Kharagpur held from 6th-8th July, 2021. Paper in pipeline to be published on IEEE Xplore.",
+        "Presented my final year thesis on 'Knowledge Transfer between Similar Atari Games Using Deep Q-Networks to Improve Performance' in the 12th ICCCNT 2021 Conference organized by IEEE section of IIT Kharagpur held from 6th-8th July, 2021. Paper published on IEEE Xplore.",
       image: require("./assets/images/ICCCNT Certificate.jpeg"),
       footerLink: [
+        {
+          name: "View Paper",
+          url:
+            "https://doi.org/10.1109/ICCCNT51525.2021.9580091"
+        },
         {
           name: "View Certificate",
           url:
