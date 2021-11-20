@@ -32,6 +32,7 @@ const socialMediaLinks = {
   twitter: "https://www.twitter.com/@arghyadeepdas99",
   medium: "https://arghyadeep-d.medium.com/",
   gmail: "arghyadeep1899@gmail.com",
+  orcid: "https://orcid.org/0000-0001-7323-3516",
   facebook: "https://www.facebook.com/arghyadeep.d",
   spotify: "https://open.spotify.com/user/31jjxj4nl3whrmo634uns76bqjhi",
   // Instagram and Twitter are also supported in the links!
@@ -188,7 +189,7 @@ const educationInfo = {
       duration: "August 2017 - July 2021",
       desc: "CGPA: 9.48 | Highest GPA: 10",
       descBullets: [
-        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and currently in pipeline for publication in IEEE Explore.",
+        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and published in IEEE Explore.",
         "Consistently in top 5% of Computer Department's academic ranklist since First Year",
         "Department Topper in Final Year",
         "Former Lead Mentor and Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",

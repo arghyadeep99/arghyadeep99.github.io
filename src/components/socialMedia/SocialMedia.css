@@ -59,13 +59,16 @@
 }
 
 .instagram i {
-  background-color: #c13584;
+  background-color: #B84C85;
 }
 
 .spotify i {
-  background-color: #81ba47;
+  background-color: #6BD357;
 }
 
+.orcid i {
+  background-color: #A6CF38;
+}
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -76,7 +79,8 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .medium i:hover,
-.spotify i:hover {
+.spotify i:hover,
+.orcid i:hover {
   background-color: black;
 }
 
