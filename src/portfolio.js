@@ -274,7 +274,8 @@ const workExperiences = {
       date: "August 2021 - Present",
       desc: "",
       descBullets: [
-        "Working in the Global Technologies Infrastructure Services (GTIS) team, delivering customized software solutions to all internal teams of Barclays across the globe.",
+        "Designed and implemented a cloud automation solution for Barclays Compliance Center that required moving the exported blobs from one storage account to another storage account on Azure via secure channel, reducing workload by 95%.",
+        "Worked on end-to-end delivery of Planner for Pilot users in Microsoft Teams for Barclays that involved automation of enabling multiple users, monitoring settings using LMA script, etc. reducing significant human hours.",
       ]
     },
     {
