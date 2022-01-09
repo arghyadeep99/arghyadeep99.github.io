@@ -69,10 +69,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
     },
     {
-      skillName: "FastAPI",
-      src: "https://user-images.githubusercontent.com/33197180/131907258-3844c124-b494-48f8-b834-59295c165ced.png"
-    },
-    {
       skillName: "Streamlit",
       src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
     },
@@ -83,6 +79,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "MongoDB",
       src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+    },
+    {
+      skillName: "FastAPI",
+      src: "https://user-images.githubusercontent.com/33197180/131907258-3844c124-b494-48f8-b834-59295c165ced.png"
     },
     {
       skillName: "Django",
@@ -129,8 +129,8 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
     },
     {
-      skillName: "GCloud",
-      src: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+      skillName: "Azure",
+      src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
     },
     {
       skillName: "PostgreSQL",
@@ -140,15 +140,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "MySQL",
       src: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
     },
-    
     {
       skillName: "Jenkins",
       src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
     },
     /*
     {
-      skillName: "Azure",
-      src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+      skillName: "GCloud",
+      src: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
     },
     {
       skillName: "AWS",
@@ -268,7 +267,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Technical Analyst",
+      role: "Software Engineer",
       company: "Barclays",
       companylogo: require("./assets/images/barclays.svg"),
       date: "August 2021 - Present",
