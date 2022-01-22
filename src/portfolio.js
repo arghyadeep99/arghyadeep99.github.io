@@ -50,9 +50,8 @@ const skillsSection = {
     emoji("⚡ Melophile ♫, Technophile 💻 and Nyctophile 🌙"),
     emoji("⚡ Alter ego: tensor.overflow! 🎮"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
-    emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and Mr. Robot! 🤖"),
-    emoji(
-      "⚡ Love to explore about finance, science, music and world politics!"), 
+    emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and The Office! 🏢"),
+    emoji("⚡ Love to explore about finance, science, music and world politics!"), 
     emoji("⚡ Both you & me were declared 2006 TIMES Person of the Year! ✨")
   ],
 
@@ -273,8 +272,8 @@ const workExperiences = {
       date: "August 2021 - Present",
       desc: "",
       descBullets: [
-        "Designed and implemented a cloud automation solution for Barclays Compliance Center that required moving the exported blobs from one storage account to another storage account on Azure via secure channel, reducing workload by 95%.",
-        "Worked on end-to-end delivery of Planner for Pilot users in Microsoft Teams for Barclays that involved automation of enabling multiple users, monitoring settings using LMA script, etc. reducing significant human hours.",
+        "Designed and implemented a cloud automation solution for Barclays Compliance Center that required moving terabytes of compliance data between storage accounts on Azure via private link, reducing workload by 95%.",
+        "Worked on automating end-to-end delivery of Planner for Pilot users in Microsoft Teams and Information Barrier policies observation by enabling multiple users, monitoring settings using LMA script, etc. decreasing human effort by 90%.",  
       ]
     },
     {
@@ -295,9 +294,9 @@ const workExperiences = {
       date: "December 2019 – January 2020",
       desc: "",
       descBullets: [
-        "Prepared a report to pave the path for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on national scale. It was proposed to send to Ministry of IT (MeitY), BIS \& ISO/IEC",
-        "The report was utilized in framing the ”Responsible #AIForAll” Draft by NITI Aayog to frame the baseline for a National Policy on Ethics in AI",
-        "Compiled a report focused on the Possible Impact of AI on Climate Change in India & reviewed multiple technology policies of national scale."
+      "Prepared a report for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on a national scale impacting millions of people. It was proposed to send to the Ministry of IT (MeitY), BIS & ISO/IEC.",
+      "The report was utilized in framing NITI Aayog’s flagship “Responsible #AIForAll” Draft for National Policy on AI Ethics with over 1 crore views.",
+      "Worked on a report focused on the Possible Impact of AI on Climate Change in India & reviewed multiple technology policies of national scale.",  
       ]
     },
     {
