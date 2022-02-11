@@ -272,7 +272,7 @@ const workExperiences = {
       date: "August 2021 - Present",
       desc: "",
       descBullets: [
-        "Designed and implemented a cloud automation solution for Barclays Compliance Center that required moving terabytes of compliance data between storage accounts on Azure via private link, reducing workload by 95%.",
+        "Designed and implemented a cloud solution for Barclays Compliance Center that automated moving terabytes of compliance data between Azure storage accounts via a secure private network, to contribute to making Barclays the first global organization to use Compliance Center in a regulated environment, saving around US$1.18 million annually.",
         "Worked on automating end-to-end delivery of Planner for Pilot users in Microsoft Teams and Information Barrier policies observation by enabling multiple users, monitoring settings using LMA script, etc. decreasing human effort by 90%.",  
       ]
     },
