@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.71cf2395.css",
-    "main.js": "/static/js/main.9a3bc853.js",
-    "static/css/561.8b73d1b0.chunk.css": "/static/css/561.8b73d1b0.chunk.css",
-    "static/js/561.45d91394.chunk.js": "/static/js/561.45d91394.chunk.js",
-    "static/css/59.1a5a64f5.chunk.css": "/static/css/59.1a5a64f5.chunk.css",
-    "static/js/59.ca4d902f.chunk.js": "/static/js/59.ca4d902f.chunk.js",
+    "main.css": "/static/css/main.0ce6bd66.css",
+    "main.js": "/static/js/main.d451bc50.js",
+    "static/css/148.1df90528.chunk.css": "/static/css/148.1df90528.chunk.css",
+    "static/js/148.c07df693.chunk.js": "/static/js/148.c07df693.chunk.js",
+    "static/css/191.9782a325.chunk.css": "/static/css/191.9782a325.chunk.css",
+    "static/js/191.d5a8879c.chunk.js": "/static/js/191.d5a8879c.chunk.js",
     "static/media/hackoff.png": "/static/media/hackoff.de55a14b4f54fc381c3f.png",
     "static/media/loc.png": "/static/media/loc.08a99366d6e0260f75b5.png",
     "static/media/uandi.png": "/static/media/uandi.be9f173ddaf6f7f94945.png",
@@ -21,6 +21,7 @@
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/dlLogo.png": "/static/media/dlLogo.8d79164f989e5d65e9c1.png",
     "static/media/iitbLogo.jpg": "/static/media/iitbLogo.49485b1cb6688a4d4530.jpg",
+    "static/media/barclays.png": "/static/media/barclays.f18ca87b2b156a964fd1.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/surge.png": "/static/media/surge.aaefb1d7eb8e2157636c.png",
     "static/media/outreachLogo.jpeg": "/static/media/outreachLogo.967fef484632ff9eda42.jpeg",
@@ -32,18 +33,17 @@
     "static/media/nitiLogo.jpg": "/static/media/nitiLogo.efb3e1d5c32030918cbf.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/unfoundLogo.webp": "/static/media/unfoundLogo.c159de6c30ead0e6d88c.webp",
-    "static/media/barclays.svg": "/static/media/barclays.f473002f0e7b01f3bd56e54acf65ad69.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.71cf2395.css.map": "/static/css/main.71cf2395.css.map",
-    "main.9a3bc853.js.map": "/static/js/main.9a3bc853.js.map",
-    "561.8b73d1b0.chunk.css.map": "/static/css/561.8b73d1b0.chunk.css.map",
-    "561.45d91394.chunk.js.map": "/static/js/561.45d91394.chunk.js.map",
-    "59.1a5a64f5.chunk.css.map": "/static/css/59.1a5a64f5.chunk.css.map",
-    "59.ca4d902f.chunk.js.map": "/static/js/59.ca4d902f.chunk.js.map"
+    "main.0ce6bd66.css.map": "/static/css/main.0ce6bd66.css.map",
+    "main.d451bc50.js.map": "/static/js/main.d451bc50.js.map",
+    "148.1df90528.chunk.css.map": "/static/css/148.1df90528.chunk.css.map",
+    "148.c07df693.chunk.js.map": "/static/js/148.c07df693.chunk.js.map",
+    "191.9782a325.chunk.css.map": "/static/css/191.9782a325.chunk.css.map",
+    "191.d5a8879c.chunk.js.map": "/static/js/191.d5a8879c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71cf2395.css",
-    "static/js/main.9a3bc853.js"
+    "static/css/main.0ce6bd66.css",
+    "static/js/main.d451bc50.js"
   ]
 }
