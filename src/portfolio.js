@@ -284,8 +284,10 @@ const workExperiences = {
       date: "August 2021 - Present",
       desc: "",
       descBullets: [
-        "Designed and implemented a cloud solution for Barclays Compliance Center that automated moving terabytes of compliance data between Azure storage accounts via a secure private network, to contribute to making Barclays the first global organization to use Compliance Center in a regulated environment, saving around US$1.18 million annually.",
-        "Worked on automating end-to-end delivery of Planner for Pilot users in Microsoft Teams and Information Barrier policies observation by enabling multiple users, monitoring settings using LMA script, etc. decreasing human effort by 90%.",  
+        "Designed and implemented an Azure solution for the eDiscovery team to use the Compliance Center. It automated the movement of terabytes of compliance data between Azure storage accounts via a secure private network, to contribute to making Barclays the first global organization to use Compliance Center in a regulated environment, saving around US$1.18 million annually.",
+        "Led the Native Teams project to transition 15k Teams across the bank from bot owners to human owners to improve UX.",
+        "Engineered multiple solution architectures for the deployment of Microsoft Teams within Barclays, making it one of the most challenging bank-wide rollouts and largest deployment in the fintech industry, while meeting financial compliance and regulatory needs.",
+        "Steering engineering of multiple app developments and integrations into Teams like Whiteboard, Planner, Power Automate, Hive Learning Bot, Amelia Bot, Salesforce, etc.",
       ]
     },
     {
@@ -485,11 +487,35 @@ const voluntaryWork = {
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Achievements & Publications 🏆"),
+  title: emoji("Awards & Publications 🏆"),
   //subtitle:
   //"Achievements for some cool things I have done!",
 
   achievementsCards: [
+    {
+      title: "CodeFest Hackathon - Global Champions",
+      subtitle:
+        "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
+      image: require("./assets/images/Codefest.jpeg"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Barclays Unsung Hero Award",
+      subtitle:
+        "Awarded the Unsung Hero Award by Barclays UK for delivering an upgrade on existing Secure Blobs Transfer solution to handle huge bursts of file copy requests and huge file sizes by implementing Durable Functions-based solution.",
+      image: require("./assets/images/barclays.png"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Barclays Star of the Month India Award",
+      subtitle:
+        "Awarded for delivering an Azure solution for the Secure Blobs Transfer Solution for eDiscovery team to automate the movement terabytes of compliance data. This made Barclays the first global organization to use Compliance Center in a regulated environment, saving around US$1.18 million annually and closing a major cyber risk.",
+      image: require("./assets/images/barclays.png"),
+      footerLink: [
+      ]
+    },
     {
       title: "CVIT Summer School of AI 2021 Fellow",
       subtitle:
