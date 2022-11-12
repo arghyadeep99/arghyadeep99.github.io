@@ -1,6 +1,7 @@
 import React from "react";
 import "./GithubRepoCard.css";
 import {Fade} from "react-reveal";
+import {formatFileSizeDisplay} from "../../utils";
 
 export default function GithubRepoCard({repo, isDark}) {
   function openRepoinNewTab(url) {
@@ -80,7 +81,7 @@ export default function GithubRepoCard({repo, isDark}) {
               </span>
             </div>
             <div className="repo-right-stat">
-              <p>{repo.node.diskUsage} KB</p>
+            <p>{formatFileSizeDisplay(repo.node.diskUsage)}</p>
             </div>
           </div>
         </div>

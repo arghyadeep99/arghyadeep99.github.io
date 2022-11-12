@@ -16,7 +16,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Software Engineer at Barclays | CVIT Summer School 2021 Fellow | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
+    "Teams Developer (SDE-1) at Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",

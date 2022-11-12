@@ -10,7 +10,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("© 2021 | Made with ❤️ by Arghyadeep Das")}
+          Copyright © {new Date().getFullYear()} | Made with {emoji("❤️")} by Arghyadeep Das
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
