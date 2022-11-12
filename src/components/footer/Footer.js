@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import "./Footer.css";
+import "./Footer.scss";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
@@ -14,7 +14,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio" target="_blank">
+          <a href="https://github.com/saadpasta/developerFolio" target="_blank" rel="noreferrer">
             developerFolio
           </a>
         </p>

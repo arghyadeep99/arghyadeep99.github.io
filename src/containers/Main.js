@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -12,39 +12,45 @@ import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
-import Top from "./topbutton/Top";
+import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import SplashScreen from "./splashScreen/SplashScreen";
+import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
-import "./Main.css";
+import {useLocalStorage} from "../hooks/useLocalStorage";
+import "./Main.scss";
 import Profile from "./profile/Profile";
 
-export default class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isDark: true
-    };
-  }
+const Main = () => {
+  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
+    useState(true);
 
-  componentDidMount() {
-    if (localStorage.getItem("isDark") === null) {
-      const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-      localStorage.setItem("isDark", darkPref.matches);
+  useEffect(() => {
+    if (splashScreen.enabled) {
+      const splashTimer = setTimeout(
+        () => setIsShowingSplashAnimation(false),
+        splashScreen.duration
+      );
+      return () => {
+        clearTimeout(splashTimer);
+      };
     }
-    this.setState({isDark: JSON.parse(localStorage.getItem("isDark"))});
-  }
-  changeTheme = () => {
-    this.setState({isDark: !this.state.isDark}, () => {
-      localStorage.setItem("isDark", this.state.isDark);
-    });
+  }, []);
+
+  const changeTheme = () => {
+    setIsDark(!isDark);
   };
 
-  render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
+      <div className={isDark ? "dark-mode" : null}>
         <StyleProvider
-          value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
-        >
+          value={{isDark: isDark, changeTheme: changeTheme}}>
+            {isShowingSplashAnimation && splashScreen.enabled ? (
+          <SplashScreen />
+        ) : (
+          <>
           <Header />
           <Greeting />
           <Skills />
@@ -60,9 +66,12 @@ export default class Main extends Component {
           <Podcast />
           <Profile />
           <Footer />
-          <Top />
+          <ScrollToTopButton />
+          </>
+        )}
         </StyleProvider>
       </div>
     );
   }
-}
+
+export default Main;

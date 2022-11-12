@@ -1,5 +1,5 @@
 import React from "react";
-import "./GithubRepoCard.css";
+import "./GithubRepoCard.scss";
 import {Fade} from "react-reveal";
 import {formatFileSizeDisplay} from "../../utils";
 

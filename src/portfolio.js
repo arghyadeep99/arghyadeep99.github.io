@@ -1,8 +1,15 @@
-﻿/* Change this file to get your personal Portfolio */
-
-// Summary And Greeting Section
-
+﻿
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 
 const illustration = {
   animated: false // set to false to use static SVG
@@ -16,7 +23,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Teams Developer (SDE-1) at Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at Somaiya ML Research Association"
+    "NoOps AI Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at SMLRA"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -47,11 +54,11 @@ const skillsSection = {
     "I aspire to become an ML Engineer with aim of creating end-to-end ML products that completely transfigure the society!"
   ),
   skills: [
-    emoji("⚡ Melophile ♫, Technophile 💻 and Nyctophile 🌙"),
+    emoji("⚡ Melophile ♫, Technophile 💻 and Tetrachromat 🎨"),
     emoji("⚡ Alter ego: tensor.overflow! 🎮"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
     emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and The Office! 🏢"),
-    emoji("⚡ Love to explore about finance, science, music and world politics!"), 
+    emoji("⚡ Love to explore about science, music, finance and world politics!"), 
     emoji("⚡ Both you & me were declared 2006 TIMES Person of the Year! ✨")
   ],
 
@@ -72,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
     },
     {
-      skillName: "Golang",
-      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
-    },
-    {
       skillName: "MongoDB",
       src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
     },
@@ -90,6 +93,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Flask",
       src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
+    },
+    {
+      skillName: "Azure",
+      src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+    },
+    {
+      skillName: "MS Teams",
+      src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
+    },
+    {
+      skillName: "Java",
+      src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+    },
+    {
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
     },
     {
       skillName: "JavaScript",
@@ -108,10 +127,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },
     {
-      skillName: "Java",
-      src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
-    },
-    {
       skillName: "Tensorflow",
       src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
@@ -128,10 +143,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
     },
     {
-      skillName: "Azure",
-      src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
-    },
-    {
       skillName: "PostgreSQL",
       src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
@@ -139,11 +150,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "MySQL",
       src: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
     },
+    /*
     {
       skillName: "Jenkins",
       src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
     },
-    /*
+    
     {
       skillName: "GCloud",
       src: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
@@ -267,8 +279,8 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Barclays",
-      companylogo: require("./assets/images/barclays.svg"),
+      company: "Barclays PLC",
+      companylogo: require("./assets/images/barclays.png"),
       date: "August 2021 - Present",
       desc: "",
       descBullets: [
@@ -289,7 +301,7 @@ const workExperiences = {
     },
     {
       role: "Research Intern",
-      company: "NITI Aayog, New Delhi",
+      company: "NITI Aayog, Govt. of India",
       companylogo: require("./assets/images/nitiLogo.jpg"),
       date: "December 2019 – January 2020",
       desc: "",
@@ -826,7 +838,10 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false;
+
 export {
+  splashScreen,
   illustration,
   prof_illustration,
   greeting,
@@ -843,5 +858,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };

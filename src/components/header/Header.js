@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
-import "./Header.css";
+import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
@@ -80,7 +80,8 @@ function Header() {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
               <ToggleSwitch />
             </a>
           </li>
