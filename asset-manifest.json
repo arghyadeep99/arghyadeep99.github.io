@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ce6bd66.css",
-    "main.js": "/static/js/main.d451bc50.js",
+    "main.css": "/static/css/main.0db6ba7c.css",
+    "main.js": "/static/js/main.9e4f966e.js",
     "static/css/148.1df90528.chunk.css": "/static/css/148.1df90528.chunk.css",
     "static/js/148.c07df693.chunk.js": "/static/js/148.c07df693.chunk.js",
     "static/css/191.9782a325.chunk.css": "/static/css/191.9782a325.chunk.css",
@@ -11,6 +11,7 @@
     "static/media/uandi.png": "/static/media/uandi.be9f173ddaf6f7f94945.png",
     "static/media/CVIT Certificate.png": "/static/media/CVIT Certificate.c81b3eedf669267937e4.png",
     "static/media/hackjaipur.png": "/static/media/hackjaipur.1c77ef76f24119cd5ad3.png",
+    "static/media/Codefest.jpeg": "/static/media/Codefest.eef930a792ca708fcf55.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/hof-theprint.jpeg": "/static/media/hof-theprint.7df2b3eb866f49a94d1d.jpeg",
     "static/media/Physics Award.jpeg": "/static/media/Physics Award.8ecf956caad55c90f71b.jpeg",
@@ -35,15 +36,15 @@
     "static/media/unfoundLogo.webp": "/static/media/unfoundLogo.c159de6c30ead0e6d88c.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.0ce6bd66.css.map": "/static/css/main.0ce6bd66.css.map",
-    "main.d451bc50.js.map": "/static/js/main.d451bc50.js.map",
+    "main.0db6ba7c.css.map": "/static/css/main.0db6ba7c.css.map",
+    "main.9e4f966e.js.map": "/static/js/main.9e4f966e.js.map",
     "148.1df90528.chunk.css.map": "/static/css/148.1df90528.chunk.css.map",
     "148.c07df693.chunk.js.map": "/static/js/148.c07df693.chunk.js.map",
     "191.9782a325.chunk.css.map": "/static/css/191.9782a325.chunk.css.map",
     "191.d5a8879c.chunk.js.map": "/static/js/191.d5a8879c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce6bd66.css",
-    "static/js/main.d451bc50.js"
+    "static/css/main.0db6ba7c.css",
+    "static/js/main.9e4f966e.js"
   ]
 }
