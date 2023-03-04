@@ -75,12 +75,8 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
     },
     {
-      skillName: "Streamlit",
-      src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
-    },
-    {
-      skillName: "MongoDB",
-      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+      skillName: "Tensorflow",
+      src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
     {
       skillName: "FastAPI",
@@ -95,20 +91,56 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
     },
     {
+      skillName: "Streamlit",
+      src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
+    },
+    {
       skillName: "Azure",
       src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
     },
     {
-      skillName: "MS Teams",
-      src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
+    },
+    {
+      skillName: "Git",
+      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+      skillName: "Jenkins",
+      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+    },
+    {
+      skillName: "Docker",
+      src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
+    },
+    {
+      skillName: "Kafka",
+      src: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
+    },
+    {
+      skillName: "Splunk",
+      src: "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg"
+    },
+    {
+      skillName: "Elastic",
+      src: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
+    },
+    {
+      skillName: "MongoDB",
+      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+    },
+    {
+      skillName: "PostgreSQL",
+      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
     {
       skillName: "Java",
       src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
     },
     {
-      skillName: "Golang",
-      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
+      skillName: "Spring Boot",
+      src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
     },
     {
       skillName: "JavaScript",
@@ -119,43 +151,22 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
     {
-      skillName: "Spring Boot",
-      src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
-    },
-    {
       skillName: "React",
       src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-    },
-    {
-      skillName: "Tensorflow",
-      src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
     {
       skillName: "C",
       src: "https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67"
     },
     {
-      skillName: "Git",
-      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-    },
-    {
-      skillName: "Docker",
-      src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
-    },
-    {
-      skillName: "PostgreSQL",
-      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
-    },
-    {
-      skillName: "MySQL",
-      src: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
-    },
+      skillName: "Linux",
+      src: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
+    }, 
     /*
     {
-      skillName: "Jenkins",
-      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+      skillName: "MS Teams",
+      src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
     },
-    
     {
       skillName: "GCloud",
       src: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
