@@ -289,16 +289,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "NoOps Automation Developer (BA4)",
       company: "Barclays PLC",
       companylogo: require("./assets/images/barclays.png"),
-      date: "August 2021 - Present",
+      date: "December 2022 - Present",
       desc: "",
       descBullets: [
-        "Designed and implemented an Azure solution for the eDiscovery team to use the Compliance Center. It automated the movement of terabytes of compliance data between Azure storage accounts via a secure private network, to contribute to making Barclays the first global organization to use Compliance Center in a regulated environment, saving around US$1.18 million annually.",
+        "Driving the NoOps Automation initiative as next step of GTIS Observability project.",
+        "Working on log analytics from VROps data fetched from Kafka into Splunk.",
+        "Made the Python script for ISAC Profile connectivity to Kafka from sync to async, speeding up process from 3 days to 30 seconds.",
+        "Contributed in EDI-Bot development using RASA for EDI Ops.",
+        "Automated incident raising to ServiceFirst from EDI servers in case of any kind of functional anomaly.",
+      ]
+    },
+    {
+      role: "Teams Developer (BA3)",
+      company: "Barclays PLC",
+      companylogo: require("./assets/images/barclays.png"),
+      date: "August 2021 - November 2022",
+      desc: "",
+      descBullets: [
+        "Designed and implemented an Azure solution for the eDiscovery team to automate the movement of terabytes of compliance data between Azure storage accounts.",
         "Led the Native Teams project to transition 15k Teams across the bank from bot owners to human owners to improve UX.",
-        "Engineered multiple solution architectures for the deployment of Microsoft Teams within Barclays, making it one of the most challenging bank-wide rollouts and largest deployment in the fintech industry, while meeting financial compliance and regulatory needs.",
-        "Steering engineering of multiple app developments and integrations into Teams like Whiteboard, Planner, Power Automate, Hive Learning Bot, Amelia Bot, Salesforce, etc.",
+        "Engineered multiple solution architectures for the deployment of Microsoft Teams within Barclays, while meeting financial compliance and regulatory needs.",
+        "Steered engineering of multiple app developments and integrations into Teams like Whiteboard, Planner, Power Automate, Hive Learning Bot, Salesforce, etc.",
       ]
     },
     {
