@@ -518,6 +518,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Code-a-thon - 1st Runners-up",
+      subtitle:
+        "We secured second rank in the BX India Code-a-thon organized by Barclays. We worked on the problem of manual patching of images by automating the estate-wide container image patching on the BCP platform for 80k+ images.",
+      image: require("./assets/images/code-a-thon.jpeg"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Global Technology Awards 2022 - Best Team Runners-Up",
+      subtitle:
+        "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
+      image: require("./assets/images/gta-2022.jpeg"),
+      footerLink: [
+      ]
+    },
+    {
       title: "CodeFest Hackathon - Global Champions",
       subtitle:
         "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
