@@ -775,6 +775,14 @@ const blogSection = {
   blogs: [
     {
       url:
+        "https://arghyadeep-d.medium.com/lost-in-the-meteora-archives-ai-and-web3-help-recreate-the-nostalgia-of-2000s-linkin-park-67dfea8534dc",
+      title:
+        "“Lost” in the Meteora Archives — AI and Web3 help recreate the nostalgia of 2000's Linkin Park",
+      description:
+        "I express my views on the latest unarchived song from Linkin Park - Lost. I dive deep into how AI and NFT are a big theme in this song and what this song means to me!"
+    },
+    {
+      url:
         "https://arghyadeep-d.medium.com/the-collatz-conjecture-beauty-or-conundrum-of-mathematics-6589e45babf7",
       title:
         "Multi-label Emotion Classification with PyTorch + HuggingFace’s Transformers and W&B for Tracking",
