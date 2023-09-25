@@ -23,7 +23,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "NoOps AI Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at SMLRA"
+    "NoOps Automation Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at SMLRA"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -107,8 +107,8 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
     },
     {
-      skillName: "Jenkins",
-      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+      skillName: "OpenShift",
+      src: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg"
     },
     {
       skillName: "Docker",
@@ -123,7 +123,7 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg"
     },
     {
-      skillName: "Elastic",
+      skillName: "ELK Stack",
       src: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
     },
     {
@@ -163,6 +163,10 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
     }, 
     /*
+    {
+      skillName: "Jenkins",
+      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+    },
     {
       skillName: "MS Teams",
       src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
@@ -295,11 +299,11 @@ const workExperiences = {
       date: "December 2022 - Present",
       desc: "",
       descBullets: [
-        "Driving the NoOps Automation initiative as next step of GTIS Observability project.",
-        "Working on log analytics from VROps data fetched from Kafka into Splunk.",
-        "Made the Python script for ISAC Profile connectivity to Kafka from sync to async, speeding up process from 3 days to 30 seconds.",
-        "Contributed in EDI-Bot development using RASA for EDI Ops.",
+        "Working on the microservices-based event hub automation with Kafka as the message broker for self-healing of our IT infrastructure via Ansible AWX.",
+        "Implemented structured logging pattern and designed log shipping architecture using ELK stack for our automations running on OpenShift.",
+        "Designed Kibana dashboards to measure different KPIs for our containerized automations based on the structured logs shipped by our automations.",
         "Automated incident raising to ServiceFirst from EDI servers in case of any kind of functional anomaly.",
+        "Lead Developer on the GTIS 1:1 Open Door Meeting Automation Tool.",
       ]
     },
     {
@@ -400,6 +404,19 @@ const voluntaryWork = {
   title: "Voluntary Work",
   subtitle: "Some voluntary work that I have done on the sidelines...",
   projects: [
+    {
+      image: require("./assets/images/barclays.png"),
+      projectName: "Project Lead for SYUK Website",
+      projectDesc:
+        "Working as a Project Lead on delivering the StartYoung UK website as part of the commitment to being the winning solution in CodeFest 2022. I am leading a team of 4 developers in this voluntary role.",
+      footerLink: [
+        {
+          name: "SYUK Website",
+          url: "https://startyounguk.com/"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/dlLogo.png"),
       projectName: "Beta Tester & Mentor @ deeplearning.ai",
