@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0db6ba7c.css",
-    "main.js": "/static/js/main.c2db66a3.js",
+    "main.js": "/static/js/main.0e3a7448.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.bc5ddc9a.chunk.js": "/static/js/64.bc5ddc9a.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
@@ -14,6 +14,7 @@
     "static/media/gta-2022.jpeg": "/static/media/gta-2022.a58067399acd6cbfeb9f.jpeg",
     "static/media/Codefest.jpeg": "/static/media/Codefest.eef930a792ca708fcf55.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/hackerstellar.jpeg": "/static/media/hackerstellar.38bafe86a29cdbb87d55.jpeg",
     "static/media/code-a-thon.jpeg": "/static/media/code-a-thon.1ae26ad4d95965af4fc9.jpeg",
     "static/media/hof-theprint.jpeg": "/static/media/hof-theprint.7df2b3eb866f49a94d1d.jpeg",
     "static/media/Physics Award.jpeg": "/static/media/Physics Award.8ecf956caad55c90f71b.jpeg",
@@ -39,7 +40,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0db6ba7c.css.map": "/static/css/main.0db6ba7c.css.map",
-    "main.c2db66a3.js.map": "/static/js/main.c2db66a3.js.map",
+    "main.0e3a7448.js.map": "/static/js/main.0e3a7448.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.bc5ddc9a.chunk.js.map": "/static/js/64.bc5ddc9a.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -47,6 +48,6 @@
   },
   "entrypoints": [
     "static/css/main.0db6ba7c.css",
-    "static/js/main.c2db66a3.js"
+    "static/js/main.0e3a7448.js"
   ]
 }
