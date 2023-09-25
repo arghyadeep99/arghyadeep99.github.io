@@ -460,23 +460,23 @@ const voluntaryWork = {
         }
       ]
     },
-    {
-      image: require("./assets/images/dlLogo.png"),
-      projectName: "deeplearning.ai Ambassador",
-      projectDesc:
-        'Responsible for conducting workshops, seminars, and talks related to the field of Artificial Intelligence in Pie & AI Sessions. Conducted an online session on "The Past & Future of AI" in June 2020.',
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1wuDhyNAMb7DBoJME4BN9KMHvq0mevFoo/view?usp=sharing"
-        },
-        {
-          name: "YouTube Link",
-          url: "https://www.youtube.com/watch?v=QPPc8V-Zg4w"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+    // {
+    //   image: require("./assets/images/dlLogo.png"),
+    //   projectName: "deeplearning.ai Ambassador",
+    //   projectDesc:
+    //     'Responsible for conducting workshops, seminars, and talks related to the field of Artificial Intelligence in Pie & AI Sessions. Conducted an online session on "The Past & Future of AI" in June 2020.',
+    //   footerLink: [
+    //     {
+    //       name: "Certificate",
+    //       url: "https://drive.google.com/file/d/1wuDhyNAMb7DBoJME4BN9KMHvq0mevFoo/view?usp=sharing"
+    //     },
+    //     {
+    //       name: "YouTube Link",
+    //       url: "https://www.youtube.com/watch?v=QPPc8V-Zg4w"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     /*
     {
       image: require("./assets/images/linkedinLogo.png"),
@@ -529,11 +529,27 @@ const voluntaryWork = {
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Awards & Publications 🏆"),
+  title: emoji("Honor and Recognitions 🏆"),
   //subtitle:
   //"Achievements for some cool things I have done!",
 
   achievementsCards: [
+    {
+      title: "Invited as SIH 2023 Internal Hackathon Judge",
+      subtitle:
+        "I had the privilege of being invited as a judge for the Smart India Hackathon (SIH) 2023 by Government of India to K.J. Somaiya College of Engineering.",
+      image: require("./assets/images/kjsceLogo.png"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Invited as judge + mentor for Hackerstellar 2023 Hackathon by CSI-KJSCE",
+      subtitle:
+        "I had the great honor of being invited as a judge and mentor at Hackerstellar 2023 organized by CSI-KJSCE.",
+      image: require("./assets/images/hackerstellar.jpeg"),
+      footerLink: [
+      ]
+    },
     {
       title: "Code-a-thon - 1st Runners-up",
       subtitle:
@@ -551,7 +567,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "CodeFest Hackathon - Global Champions",
+      title: "CodeFest 2022 Hackathon - Global Champions",
       subtitle:
         "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
       image: require("./assets/images/Codefest.jpeg"),
@@ -790,6 +806,14 @@ const blogSection = {
     "I have a knack for writing, on whichever topic storms my mind, compelling me to pick up my virtual pen!",
 
   blogs: [
+    {
+      url:
+        "https://arghyadeep-d.medium.com/my-two-cents-on-two-years-of-working-in-fintech-3cf9555096ce",
+      title:
+        "My two cents on two years of working in Fintech",
+      description:
+        "In this article, I express my views as a software developer working in the fintech industry for the past 2 years, to hopefully guide new joiners as they enter this realm!"
+    },
     {
       url:
         "https://arghyadeep-d.medium.com/lost-in-the-meteora-archives-ai-and-web3-help-recreate-the-nostalgia-of-2000s-linkin-park-67dfea8534dc",
