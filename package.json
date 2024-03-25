@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "colorthief": "^2.2.0",
-    "gh-pages": "^6.1.0",
+    "gh-pages": "^6.1.1",
     "lottie-react": "^2.4.0",
     "node-sass": "^9.0.0",
     "react": "^16.10.0",
