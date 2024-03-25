@@ -55,6 +55,7 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
 node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
+If you face security issues in running in Node 20+, add this in "scripts" -> "start" and "build" of package.json:SET NODE_OPTIONS=--openssl-legacy-provider && <your commands>".
 ```
 
 ### Docker Commands
