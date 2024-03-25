@@ -4,13 +4,12 @@
   "version": "1.0.1",
   "private": true,
   "dependencies": {
-    "@apollo/react-hooks": "^4.0.0",
-    "apollo-boost": "^0.4.4",
-    "colorthief": "^2.4.0",
-    "graphql": "^16.8.1",
+    "colorthief": "^2.2.0",
+    "gh-pages": "^6.1.0",
     "lottie-react": "^2.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "node-sass": "^9.0.0",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
     "react-reveal": "^1.2.2",
@@ -20,8 +19,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && node fetch.js && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && node fetch.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -b main -d build"
@@ -47,7 +46,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "dotenv": "^8.2.0",
     "prettier": "^3.2.5"
   }
 }

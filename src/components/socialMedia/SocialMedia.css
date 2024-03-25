@@ -47,7 +47,15 @@
 }
 
 .twitter i {
-  background-color: #1da1f2;
+  background-color: #000;
+}
+
+.fa-twitter{
+	font-family:sans-serif;
+}
+.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
 }
 
 .medium i {

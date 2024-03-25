@@ -1,5 +1,4 @@
-﻿
-import emoji from "react-easy-emoji";
+﻿import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 
@@ -23,7 +22,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "NoOps Automation Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente | Ex-Lead Mentor at SMLRA"
+    "Incoming MSCS Student @ UMass Amherst | NoOps Automation Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -35,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/arghyadeep99",
   linkedin: "https://www.linkedin.com/in/arghyadeep-das/",
-  instagram: "https://www.instagram.com/third_root_of_quadratic_eqn",
+  instagram: "https://www.instagram.com/shots_and_shayaris",
   twitter: "https://www.twitter.com/@arghyadeepdas99",
   medium: "https://arghyadeep-d.medium.com/",
   gmail: "arghyadeep1899@gmail.com",
@@ -49,13 +48,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What you don't know...",
+  title: "Unravelling My Quirky Bits...",
   subTitle: emoji(
     "I aspire to become an ML Engineer with aim of creating end-to-end ML products that completely transfigure the society!"
   ),
   skills: [
     emoji("⚡ Melophile ♫, Technophile 💻 and Tetrachromat 🎨"),
-    emoji("⚡ Alter ego: tensor.overflow! 🎮"),
+    emoji("⚡ Amateur Pixel photographer! 📸"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
     emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and The Office! 🏢"),
     emoji("⚡ Love to explore about science, music, finance and world politics!"), 
@@ -99,40 +98,36 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
     },
     {
-      skillName: "Golang",
-      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
+      skillName: "Docker",
+      src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
     },
     {
-      skillName: "Git",
-      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
     },
     {
       skillName: "OpenShift",
       src: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg"
     },
     {
-      skillName: "Docker",
-      src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
+      skillName: "Jenkins",
+      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+    },
+    {
+      skillName: "Ansible",
+      src: "https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg"
     },
     {
       skillName: "Kafka",
       src: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
     },
     {
-      skillName: "Splunk",
-      src: "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg"
-    },
-    {
       skillName: "ELK Stack",
       src: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
     },
     {
-      skillName: "MongoDB",
-      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
-    },
-    {
-      skillName: "PostgreSQL",
-      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+      skillName: "Splunk",
+      src: "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg"
     },
     {
       skillName: "Java",
@@ -143,8 +138,16 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
     },
     {
-      skillName: "JavaScript",
-      src: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+      skillName: "Redis",
+      src: "https://www.vectorlogo.zone/logos/redis/redis-icon.svg"
+    },
+    {
+      skillName: "MongoDB",
+      src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+    },
+    {
+      skillName: "Postgres",
+      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
     {
       skillName: "NodeJS",
@@ -155,17 +158,17 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },
     {
-      skillName: "C",
-      src: "https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67"
+      skillName: "Git",
+      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
     },
     {
       skillName: "Linux",
       src: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
-    }, 
+    },
     /*
     {
-      skillName: "Jenkins",
-      src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+      skillName: "C",
+      src: "https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67"
     },
     {
       skillName: "MS Teams",
@@ -299,11 +302,11 @@ const workExperiences = {
       date: "December 2022 - Present",
       desc: "",
       descBullets: [
-        "Working on the microservices-based event hub automation with Kafka as the message broker for self-healing of our IT infrastructure via Ansible AWX.",
-        "Implemented structured logging pattern and designed log shipping architecture using ELK stack for our automations running on OpenShift.",
-        "Designed Kibana dashboards to measure different KPIs for our containerized automations based on the structured logs shipped by our automations.",
-        "Automated incident raising to ServiceFirst from EDI servers in case of any kind of functional anomaly.",
-        "Lead Developer on the GTIS 1:1 Open Door Meeting Automation Tool.",
+        "Led the implementation of a Kafka-driven microservices-based event hub automation, standardizing 100+ automations across our infrastructure.",
+        "Steered the development of a cost-effective, high-capacity automation orchestrator in-house by harnessing open-source tools, resulting in reduced costs by eliminating expensive proprietary licensed platforms like 1Desk.",
+        "Contributed to the development of robust Registration APIs for the GTIS Event Hub initiative, transforming manual Kafka admin operations via JIRA into automated self-service for customer onboarding, topic creation, managing pub-sub access, etc.",
+        "Pioneered the implementation of a structured logging pattern and architected a robust log shipping framework utilizing Kafka and the ELK stack for our OpenShift-hosted automations. These efforts were instrumental in standardizing logging practices across existing and future automations of different teams, improving troubleshooting, and enhancing system reliability.",
+        "Elevated data-driven decision-making and continuous improvement by crafting Kibana dashboards, enabling the meticulous monitoring of key performance indicators (KPIs) of our automations through the utilization of structured log data. This pioneering initiative serves as a linchpin for enhancing site reliability, operational insights, and strategic advancements.",
       ]
     },
     {
@@ -313,10 +316,10 @@ const workExperiences = {
       date: "August 2021 - November 2022",
       desc: "",
       descBullets: [
-        "Designed and implemented an Azure solution for the eDiscovery team to automate the movement of terabytes of compliance data between Azure storage accounts.",
-        "Led the Native Teams project to transition 15k Teams across the bank from bot owners to human owners to improve UX.",
-        "Engineered multiple solution architectures for the deployment of Microsoft Teams within Barclays, while meeting financial compliance and regulatory needs.",
-        "Steered engineering of multiple app developments and integrations into Teams like Whiteboard, Planner, Power Automate, Hive Learning Bot, Salesforce, etc.",
+        "Pioneered the development of a comprehensive Azure solution for the eDiscovery and Legal Compliance team, streamlining the automated transfer of terabytes of compliance data to a secure storage location, positioning Barclays as the first global organization to leverage the Compliance Center in a regulated environment, resulting in annual savings of USD 1.18 million.",
+        "Spearheaded the implementation of an Azure Functions-based automation solution, harnessing Graph APIs, to streamline the end-to-end case creation process within Microsoft Purview. It resulted in a remarkable 95% reduction in manual workload for the eDiscovery and Legal Compliance team, greatly enhancing overall operational efficiency and productivity.",
+        "Orchestrated the successful deployment of Microsoft Teams across Barclays, overseeing one of the most ambitious bank-wide rollouts and the largest deployment in the fintech sector. This achievement not only ensured adherence to financial compliance and regulatory requirements but also earned us the \"Best Team\" tag at Barclays' Group Technology Awards.",
+        "Led the strategic bank-wide rollout of Whiteboard, Planner, Workflows, Viva Insights, HR Bot, and Bitbucket in Microsoft Teams, meeting regulatory compliance. Additionally, I facilitated the seamless transition of over 20k teams from bot owners to human owners, boosting productivity and decentralizing ownership management.",
       ]
     },
     {
@@ -326,7 +329,7 @@ const workExperiences = {
       date: "August 2020",
       desc: "",
       descBullets: [
-        "Inspected different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM for Online Hate Speech Classification.",
+        "Implemented and inspected different models like Logistic Regression, SVMs, Naive Bayes and NB-SVM for Online Hate Speech Classification.",
         "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977.",
       ]
     },
@@ -543,10 +546,18 @@ const achievementSection = {
       ]
     },
     {
-      title: "Invited as judge + mentor for Hackerstellar 2023 Hackathon by CSI-KJSCE",
+      title: "Invited as Judge + Mentor for Hackerstellar 2023 Hackathon by CSI-KJSCE",
       subtitle:
         "I had the great honor of being invited as a judge and mentor at Hackerstellar 2023 organized by CSI-KJSCE.",
       image: require("./assets/images/hackerstellar.jpeg"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "CodeFest 2023 Hackathon - India Champions",
+      subtitle:
+        "Our team Whizbang won Codefest 2023 Hackathon organized by Barclays in association with Microsoft to help Listening Ears with their problem statements. Won Amazon Alexa, boAt TWS and more.",
+      image: require("./assets/images/Codefest-2023.jpg"),
       footerLink: [
       ]
     },
@@ -561,7 +572,7 @@ const achievementSection = {
     {
       title: "Global Technology Awards 2022 - Best Team Runners-Up",
       subtitle:
-        "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
+        "Our team orchestrated the successful deployment of Microsoft Teams across Barclays, overseeing one of the most ambitious bank-wide rollouts and the largest deployment in the fintech sector, while complying with financial regulatory requirements.",
       image: require("./assets/images/gta-2022.jpeg"),
       footerLink: [
       ]
@@ -569,8 +580,8 @@ const achievementSection = {
     {
       title: "CodeFest 2022 Hackathon - Global Champions",
       subtitle:
-        "We won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
-      image: require("./assets/images/Codefest.jpeg"),
+        "Our team YoungCoders won the company-wide (UK, USA, India) hackathon organized by Barclays in association with Microsoft to help a new budding NGO named Start Young UK with overhauling their website with advanced capabilities to strengthen their three pillars: Growth, Sponsorship and Engagement. Won Microsoft goodies and Surface Headphones.",
+      image: require("./assets/images/Codefest-2022.jpeg"),
       footerLink: [
       ]
     },
@@ -699,6 +710,7 @@ const achievementSection = {
         }
       ]
     },
+    /*
     {
       title: "Subject Topper",
       subtitle:
@@ -717,6 +729,7 @@ const achievementSection = {
         }
       ]
     },
+    */ 
   ],
   display: true // Set false to hide this section, defaults to true
 };
