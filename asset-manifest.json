@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a75cf912.css",
-    "main.js": "/static/js/main.8ce2293d.js",
+    "main.css": "/static/css/main.58b92cc4.css",
+    "main.js": "/static/js/main.679d6761.js",
     "static/css/364.80f7053c.chunk.css": "/static/css/364.80f7053c.chunk.css",
     "static/js/364.a0180b57.chunk.js": "/static/js/364.a0180b57.chunk.js",
     "static/css/584.c594d32d.chunk.css": "/static/css/584.c594d32d.chunk.css",
     "static/js/584.0b720daf.chunk.js": "/static/js/584.0b720daf.chunk.js",
     "static/media/hackoff.png": "/static/media/hackoff.de55a14b4f54fc381c3f.png",
     "static/media/loc.png": "/static/media/loc.08a99366d6e0260f75b5.png",
-    "static/media/uandi.png": "/static/media/uandi.be9f173ddaf6f7f94945.png",
     "static/media/CVIT Certificate.png": "/static/media/CVIT Certificate.c81b3eedf669267937e4.png",
     "static/media/hackjaipur.png": "/static/media/hackjaipur.1c77ef76f24119cd5ad3.png",
     "static/media/Codefest-2023.jpg": "/static/media/Codefest-2023.dbfef949ac4ee906e306.jpg",
@@ -18,6 +17,7 @@
     "static/media/hackerstellar.jpeg": "/static/media/hackerstellar.38bafe86a29cdbb87d55.jpeg",
     "static/media/code-a-thon.jpeg": "/static/media/code-a-thon.1ae26ad4d95965af4fc9.jpeg",
     "static/media/hof-theprint.jpeg": "/static/media/hof-theprint.7df2b3eb866f49a94d1d.jpeg",
+    "static/media/umassLogo.png": "/static/media/umassLogo.eeb614c38c701bb63e7b.png",
     "static/media/hof-first-prize-theprint.jpeg": "/static/media/hof-first-prize-theprint.9bdd0bbe660f9e3ff1a2.jpeg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ICCCNT Certificate.jpeg": "/static/media/ICCCNT Certificate.a03a742ae628a181dce8.jpeg",
@@ -36,18 +36,17 @@
     "static/media/ryanLogo.jpeg": "/static/media/ryanLogo.168e253d6bedf4c13d5b.jpeg",
     "static/media/nitiLogo.jpg": "/static/media/nitiLogo.efb3e1d5c32030918cbf.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/unfoundLogo.webp": "/static/media/unfoundLogo.c159de6c30ead0e6d88c.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.a75cf912.css.map": "/static/css/main.a75cf912.css.map",
-    "main.8ce2293d.js.map": "/static/js/main.8ce2293d.js.map",
+    "main.58b92cc4.css.map": "/static/css/main.58b92cc4.css.map",
+    "main.679d6761.js.map": "/static/js/main.679d6761.js.map",
     "364.80f7053c.chunk.css.map": "/static/css/364.80f7053c.chunk.css.map",
     "364.a0180b57.chunk.js.map": "/static/js/364.a0180b57.chunk.js.map",
     "584.c594d32d.chunk.css.map": "/static/css/584.c594d32d.chunk.css.map",
     "584.0b720daf.chunk.js.map": "/static/js/584.0b720daf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a75cf912.css",
-    "static/js/main.8ce2293d.js"
+    "static/css/main.58b92cc4.css",
+    "static/js/main.679d6761.js"
   ]
 }
