@@ -51,8 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
-          <span></span>
+        <i className="fab fa-twitter"></i>
         </a>
       ) : null}
 

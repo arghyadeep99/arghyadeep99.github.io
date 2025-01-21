@@ -22,7 +22,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Incoming MSCS Student @ UMass Amherst | NoOps Automation Developer (BA4) @ Barclays | Ex-Teams Developer (BA3) @ Barclays | Aspiring ML/DL Cognoscente"
+    "Incoming MLE Intern @ PayPal | MSCS @ UMass Amherst | Ex-SDE-2 @ Barclays | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/arghyadeep-das/",
   instagram: "https://www.instagram.com/shots_and_shayaris",
   twitter: "https://www.twitter.com/@arghyadeepdas99",
-  medium: "https://arghyadeep-d.medium.com/",
+  medium: "https://arghyadeep-das.medium.com/",
   gmail: "arghyadeep1899@gmail.com",
   orcid: "https://orcid.org/0000-0001-7323-3516",
   facebook: "https://www.facebook.com/arghyadeep.d",
@@ -48,16 +48,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Unravelling My Quirky Bits...",
+  title: "My Quirky Bits...",
   subTitle: emoji(
-    "I aspire to become an ML Engineer with aim of creating end-to-end ML products that completely transfigure the society!"
+    ""
   ),
   skills: [
-    emoji("⚡ Melophile ♫, Technophile 💻 and Tetrachromat 🎨"),
+    emoji("⚡ Astrophile 💫 | Melophile ♫ | Nemophilist 🌳 | Logophile 📖"),
     emoji("⚡ Amateur Pixel photographer! 📸"),
     emoji("⚡ Guilty Pleasure: ERB Videos and Dark Memes 🌚"),
     emoji("⚡ Connoisseur of Pokémon, The Big Bang Theory and The Office! 🏢"),
-    emoji("⚡ Love to explore about science, music, finance and world politics!"), 
+    emoji("⚡ Love to explore about science, maths, music and nature!"), 
     emoji("⚡ Both you & me were declared 2006 TIMES Person of the Year! ✨")
   ],
 
@@ -87,11 +87,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Flask",
-      src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
-    },
-    {
-      skillName: "Streamlit",
-      src: "https://user-images.githubusercontent.com/33197180/131907417-0c266b53-a1d5-4b7f-b60f-32b0b2cf231a.png"
+      src: "https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon~v2.svg"
     },
     {
       skillName: "Azure",
@@ -102,12 +98,12 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
     },
     {
-      skillName: "Golang",
-      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
+      skillName: "Kubernetes",
+      src: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"
     },
     {
-      skillName: "OpenShift",
-      src: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg"
+      skillName: "Golang",
+      src: "https://www.vectorlogo.zone/logos/golang/golang-official.svg"
     },
     {
       skillName: "Jenkins",
@@ -130,6 +126,14 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg"
     },
     {
+      skillName: "Grafana",
+      src: "https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg"
+    },
+    {
+      skillName: "OTel",
+      src: "https://raw.githubusercontent.com/cncf/artwork/74fb7071ca390c58bd59648bc073bdc2b3752c6a/projects/opentelemetry/icon/color/opentelemetry-icon-color.svg"
+    },
+    {
       skillName: "Java",
       src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
     },
@@ -150,10 +154,6 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
     {
-      skillName: "NodeJS",
-      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
-    },
-    {
       skillName: "React",
       src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },
@@ -166,6 +166,10 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
     },
     /*
+    {
+      skillName: "NodeJS",
+      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+    },
     {
       skillName: "C",
       src: "https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67"
@@ -182,8 +186,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "AWS",
       src: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
     },
-    */
-    /*
+    {
+      skillName: "OpenShift",
+      src: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg"
+    },
     {
       skillName: "MATLAB",
       src: "https://camo.githubusercontent.com/a240bd1934154469afd73f16cdd1def3c652f4c029758d1d20ea40823371e874/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32312f4d61746c61625f4c6f676f2e706e672f36363770782d4d61746c61625f4c6f676f2e706e67"
@@ -211,13 +217,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "University of Massachusetts, Amherst",
+      logo: require("./assets/images/umassLogo.png"),
+      subHeader: "Masters of Science in Computer Science (MSCS)",
+      duration: "August 2024 - Present",
+      desc: "CGPA: 4.0/4.0",
+      descBullets: [
+        "Current Courses: ",
+        "Advanced Natural Language Processing (COMPSCI685)",
+        "Optimization in Computer Science (COMPSCI651)",
+        "Applied Information Retrieval (COMPSCI546)",
+        "Courses Taken:",
+        "Advanced Machine Learning (COMPSCI689)",
+        "Empirical Research Methods in CS (COMPSCI602)",
+        "Systems for Data Science (COMPSCI532)"
+      ]
+    },
+    {
       schoolName: "K. J. Somaiya College of Engineering (KJSCE)",
       logo: require("./assets/images/kjsceLogo.png"),
       subHeader: "Bachelor of Technology in Computer Engineering",
       duration: "August 2017 - July 2021",
-      desc: "CGPA: 9.48 | Highest GPA: 10",
+      desc: "CGPA: 9.48/10 | Highest GPA: 10/10",
       descBullets: [
-        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Built a CLI-tool called FARLE for training Atari games from scratch as well as transfer learning. Research paper presented in an IEEE conference and published in IEEE Explore.",
+        "Worked on my research-based Final Year Project on Transfer Learning to speed-up Reinforcement Learning Training of Atari Games. Research paper presented in an IEEE conference and published in IEEE Explore.",
         "Consistently in top 5% of Computer Department's academic ranklist since First Year",
         "Department Topper in Final Year",
         "Former Lead Mentor and Community Mentor at Somaiya Machine Learning Research Association (SMLRA)",
@@ -296,32 +319,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "NoOps Automation Developer (BA4)",
+      role: "Software Development Engineer-2 (BA4)",
       company: "Barclays PLC",
       companylogo: require("./assets/images/barclays.png"),
-      date: "December 2022 - Present",
+      date: "December 2022 - August 2024",
       desc: "",
       descBullets: [
-        "Led the implementation of a Kafka-driven microservices-based event hub automation, standardizing 100+ automations across our infrastructure.",
-        "Steered the development of a cost-effective, high-capacity automation orchestrator in-house by harnessing open-source tools, resulting in reduced costs by eliminating expensive proprietary licensed platforms like 1Desk.",
-        "Contributed to the development of robust Registration APIs for the GTIS Event Hub initiative, transforming manual Kafka admin operations via JIRA into automated self-service for customer onboarding, topic creation, managing pub-sub access, etc.",
-        "Pioneered the implementation of a structured logging pattern and architected a robust log shipping framework utilizing Kafka and the ELK stack for our OpenShift-hosted automations. These efforts were instrumental in standardizing logging practices across existing and future automations of different teams, improving troubleshooting, and enhancing system reliability.",
-        "Elevated data-driven decision-making and continuous improvement by crafting Kibana dashboards, enabling the meticulous monitoring of key performance indicators (KPIs) of our automations through the utilization of structured log data. This pioneering initiative serves as a linchpin for enhancing site reliability, operational insights, and strategic advancements.",
+        "Worked on the org-wide Observability efforts by leveraging Kafka, NLP, and Elastic stack for application downtime predictions, improving overall system reliability by 30%, and reducing troubleshooting time by 80%.",
+        "Designed and implemented the E2E architecture for Kafka Self-Service with Spring Boot and Python, transforming manual Kafka admin operations into automated customer self-service and reducing onboarding time by 90%.",
+        "Led the design and development of a plug-and-play automation workflow controller using Python, Kafka, and Redis, reducing costs by 80% by eliminating proprietary licensed platforms, standardized for all new automation development.",
+        "Built a Python-based secrets rotation solution on OpenShift, mitigating financial risk and preventing 150k+ incidents annually.",
       ]
     },
     {
-      role: "Teams Developer (BA3)",
+      role: "Software Development Engineer-1 (BA3)",
       company: "Barclays PLC",
       companylogo: require("./assets/images/barclays.png"),
       date: "August 2021 - November 2022",
       desc: "",
       descBullets: [
-        "Pioneered the development of a comprehensive Azure solution for the eDiscovery and Legal Compliance team, streamlining the automated transfer of terabytes of compliance data to a secure storage location, positioning Barclays as the first global organization to leverage the Compliance Center in a regulated environment, resulting in annual savings of USD 1.18 million.",
-        "Spearheaded the implementation of an Azure Functions-based automation solution, harnessing Graph APIs, to streamline the end-to-end case creation process within Microsoft Purview. It resulted in a remarkable 95% reduction in manual workload for the eDiscovery and Legal Compliance team, greatly enhancing overall operational efficiency and productivity.",
-        "Orchestrated the successful deployment of Microsoft Teams across Barclays, overseeing one of the most ambitious bank-wide rollouts and the largest deployment in the fintech sector. This achievement not only ensured adherence to financial compliance and regulatory requirements but also earned us the \"Best Team\" tag at Barclays' Group Technology Awards.",
-        "Led the strategic bank-wide rollout of Whiteboard, Planner, Workflows, Viva Insights, HR Bot, and Bitbucket in Microsoft Teams, meeting regulatory compliance. Additionally, I facilitated the seamless transition of over 20k teams from bot owners to human owners, boosting productivity and decentralizing ownership management.",
+        "Developed an Azure solution in Python for the Legal & eDiscovery team, automating terabytes of data transfer to secure storage, saving USD 1.18 million annually.",
+        "Streamlined the case creation workflow backend for eDiscovery and Legal team in Microsoft Purview via Azure Functions-based Python automation using Graph APIs, reducing manual workload by 95%.",
+        "Orchestrated the successful deployment of Microsoft Teams across Barclays, overseeing one of the most ambitious bank-wide rollouts and the largest deployment in the fintech sector.",
+        "Led the strategic bank-wide rollout of Whiteboard, Planner, Workflows, Viva Insights, HR Bot, and Bitbucket in Microsoft Teams, meeting regulatory compliance.",
+        "Facilitated the seamless transition of over 20k teams from bot owners to human owners, boosting org-wide productivity and decentralizing ownership management.",
       ]
     },
+    /*
     {
       role: "NLP Intern",
       company: "UnFound.ai",
@@ -333,6 +357,7 @@ const workExperiences = {
         "The NB-SVM model achieved a column-wise mean AUC-ROC score of 0.977.",
       ]
     },
+    */
     {
       role: "Research Intern",
       company: "NITI Aayog, Govt. of India",
@@ -340,8 +365,9 @@ const workExperiences = {
       date: "December 2019 – January 2020",
       desc: "",
       descBullets: [
-      "Prepared a report for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on a national scale impacting millions of people. It was proposed to send to the Ministry of IT (MeitY), BIS & ISO/IEC.",
-      "The report was utilized in framing NITI Aayog’s flagship “Responsible #AIForAll” Draft for National Policy on AI Ethics with over 1 crore views.",
+      "Researched economic disparities and GDP contribution patterns in India using CNNs on night skylight data and random forests, and reduced RMSE by around 30%.",
+      "Prepared a report for formulating the ethics and regulations of AI for national adoption by the Government of India and explored use-cases on a national scale, and sent to the Ministry of IT (MeitY), BIS & ISO/IEC.",
+      "The report was utilized in framing NITI Aayog\'s flagship “Responsible #AIForAll” Draft for National Policy on AI Ethics with over 1 crore views.",
       "Worked on a report focused on the Possible Impact of AI on Climate Change in India & reviewed multiple technology policies of national scale.",  
       ]
     },
@@ -433,7 +459,7 @@ const voluntaryWork = {
         //  you can add extra buttons here.
       ]
     },
-
+    /*
     {
       image: require("./assets/images/uandi.png"),
       projectName: "U&I Covid-19 Resources Collector",
@@ -450,6 +476,7 @@ const voluntaryWork = {
         }
       ]
     },
+    */
     {
       image: require("./assets/images/mlsabetaLogo.png"),
       projectName: "Microsoft Learn Student Ambassador",

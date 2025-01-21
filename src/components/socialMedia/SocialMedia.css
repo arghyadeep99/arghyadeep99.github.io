@@ -47,16 +47,16 @@
 }
 
 .twitter i {
-  background-color: #000;
+  background-color: #26a7de;
 }
-
+/*
 .fa-twitter{
 	font-family:sans-serif;
 }
-.fa-twitter::before{
+ .fa-twitter::before{
 	content:"𝕏";
 	font-size:1.2em;
-}
+} */
 
 .medium i {
   background-color: #000;
