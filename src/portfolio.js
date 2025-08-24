@@ -22,7 +22,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "Incoming MLE Intern @ PayPal | MSCS @ UMass Amherst | Ex-SDE-2 @ Barclays | Aspiring ML/DL Cognoscente"
+    "ML Intern @ PayPal | MSCS @ UMass Amherst | Ex-SWE-2 @ Barclays | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -224,10 +224,13 @@ const educationInfo = {
       desc: "CGPA: 4.0/4.0",
       descBullets: [
         "Current Courses: ",
+        "Reinforcement Learning (COMPSCI687)",
+        "Trustworthy and Responsible AI (COMPSCI690F)",
+        "Statistics (STATS501)",
+        "Courses Taken:",
         "Advanced Natural Language Processing (COMPSCI685)",
         "Optimization in Computer Science (COMPSCI651)",
         "Applied Information Retrieval (COMPSCI546)",
-        "Courses Taken:",
         "Advanced Machine Learning (COMPSCI689)",
         "Empirical Research Methods in CS (COMPSCI602)",
         "Systems for Data Science (COMPSCI532)"
@@ -318,6 +321,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Machine Learning Intern",
+      company: "PayPal",
+      companylogo: require("./assets/images/paypal.png"),
+      date: "May 2025 - August 2025",
+      desc: "",
+      descBullets: [
+        "Increased merchants' win rates against fraud cases by implementing AI-generated summarization of key evidence in long contestation documents, which sped up fraud analysts' review process.",
+        "Improved factual grounding and reduced hallucinations to almost 0% in LLM-generated summaries using LightRAG.",
+        "Reduced latency for AI Summary Generation by 10 times to approximately 15 seconds/summary.",
+      ]
+    },
     {
       role: "Software Development Engineer-2 (BA4)",
       company: "Barclays PLC",
