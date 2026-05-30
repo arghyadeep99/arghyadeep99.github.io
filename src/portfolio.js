@@ -22,7 +22,7 @@ const greeting = {
   username: "Arghyadeep Das",
   title: "Hi, আমি Arghyadeep Das",
   subTitle: emoji(
-    "ML Intern @ PayPal | MSCS @ UMass Amherst | Ex-SWE-2 @ Barclays | Aspiring ML/DL Cognoscente"
+    "SWE-2 @ PayPal | MSCS @ UMass Amherst | Ex-Barclays | Aspiring ML/DL Cognoscente"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13Zb83UO3xcAe5PFIajX7N5EnBPYhVt2h/view?usp=sharing",
@@ -220,20 +220,21 @@ const educationInfo = {
       schoolName: "University of Massachusetts, Amherst",
       logo: require("./assets/images/umassLogo.png"),
       subHeader: "Masters of Science in Computer Science (MSCS)",
-      duration: "August 2024 - Present",
-      desc: "CGPA: 4.0/4.0",
+      duration: "August 2024 - May 2026",
+      desc: "CGPA: 3.9/4.0",
       descBullets: [
-        "Current Courses: ",
-        "Reinforcement Learning (COMPSCI687)",
-        "Trustworthy and Responsible AI (COMPSCI690F)",
-        "Statistics (STATS501)",
-        "Courses Taken:",
-        "Advanced Natural Language Processing (COMPSCI685)",
-        "Optimization in Computer Science (COMPSCI651)",
-        "Applied Information Retrieval (COMPSCI546)",
-        "Advanced Machine Learning (COMPSCI689)",
-        "Empirical Research Methods in CS (COMPSCI602)",
-        "Systems for Data Science (COMPSCI532)"
+        "Industry Mentorship Practicum - AI (COMPSCI 698DS)",
+        "AI Alignment (COMPSCI 690S)*",
+        "Reinforcement Learning (COMPSCI 687)",
+        "Trustworthy and Responsible AI (COMPSCI 690F)",
+        "Distributed and Operating Systems (COMPSCI 677)*",
+        "Advanced Natural Language Processing (COMPSCI 685)",
+        "Optimization in Computer Science (COMPSCI 651)",
+        "Applied Information Retrieval (COMPSCI 546)",
+        "Advanced Machine Learning (COMPSCI 689)",
+        "Empirical Research Methods in CS (COMPSCI 602)",
+        "Systems for Data Science (COMPSCI 532)",
+        "Statistics (STATS 501)",
       ]
     },
     {
